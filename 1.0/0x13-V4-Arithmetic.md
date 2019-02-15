@@ -8,13 +8,12 @@ Category “V4” lists requirements related to the arithmetic of the smart cont
 
 ## Security Verification Requirements
 
-| # | Description | L1 | L2 | L3 | Since |
-| --- | --- | --- | --- | -- | -- |
-| **1.1** | Make sure the values are resistant to integer overflows. |  | ✓ | ✓ | 1.0 |
-| **1.2** | Verify that you do not rely the contract logic on the balance of contract (eg. balance == 0). |  | ✓ | ✓ | 1.0 |
-| **1.3** | Verify that non-strict inequality is used for balance equality. |  | ✓ | ✓ | 1.0 |
-| **1.4** | . |  | ✓ | ✓ | 1.0 |
-| **1.5** | . |  | ✓ | ✓ | 1.0 |
+| # | Description |  Since |
+| --- | --- | --- | 
+| **1.1** | Use SafeMath for arithmetic operations. | 1.0 |
+| **1.2** | Make sure the values are resistant to integer overflows. | 1.0 |
+| **1.3** | Verify that you do not rely the contract logic on the balance of contract (eg. balance == 0). | 1.0 |
+| **1.4** | Verify that non-strict inequality is used for balance equality. | 1.0 |
 
 
 ## References
