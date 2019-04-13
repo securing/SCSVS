@@ -1,4 +1,4 @@
-# V6: Gas usage & limitations
+# V7: Gas usage & limitations
 
 ## Control Objective
 
