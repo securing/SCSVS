@@ -2,8 +2,10 @@
 
 ## Control Objective
 
-Ensure that a verified contract satisfies the following high level requirements:
-* TODO
+Smart contracts in public blockchains has no built-in mechanism to store secret data securely. It is important to protect sensitive data from reading by untrusted actor. Ensure that a verified contract satisfies the following high level requirements:
+* Data stored in smart contract is identified and protected.
+* Secret data is not kept in blockchain as plaintext.
+* Smart contract is not vulnerable due to data misrepresentation.
 
 Category “V3” lists requirements related to the blockchain data of the smart contracts.
 
