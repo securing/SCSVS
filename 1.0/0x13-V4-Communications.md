@@ -3,7 +3,8 @@
 ## Control Objective
 
 Ensure that a verified contract satisfies the following high level requirements:
-* TODO
+* The external calls from and to other contracts have considered abuse case and are authorized.
+* Used libraries are safe and the state-of-the-art security libraries are used.
 
 Category “V4” lists requirements related to the function calls between the verified contracts and other contracts out of the scope of the application.
 
@@ -23,5 +24,7 @@ Category “V4” lists requirements related to the function calls between the v
 ## References
 
 For more information, see also:
+* [Security Considerations - Sending and Receiving Ether](https://solidity.readthedocs.io/en/v0.5.3/security-considerations.html#sending-and-receiving-ether)
+* [SWC-107 Reentrancy](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-107)
+* [SWC-112 Delegatecall to Untrusted Callee](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-112)
 
-* TODO

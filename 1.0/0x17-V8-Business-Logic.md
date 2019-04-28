@@ -7,7 +7,9 @@ To build secure smart contracs, we need to consider security of their business l
 The components used should not be considered safe without verification. Business assumptions should meet with the principle of minimal trust, which is essential in building smart contracts.
 
 Ensure that a verified contract satisfies the following high level requirements:
-* TODO
+* The business logic flow is sequential and in order.
+* Business limits are specified and enforced.
+* Cryptocurrency and token business logic flows have considered abuse cases and malicious actors.
 
 Category “V8” lists requirements related to the business logic of the smart contracts.
 
@@ -23,9 +25,12 @@ Category “V8” lists requirements related to the business logic of the smart 
 | **8.6** | Verify that the sensitive operations of contract does not depend on the block data (ie. block hash, timestamp). | 1.0 |
 | **8.7** | Verify that contract uses mechanisms that mitigate transaction-ordering dependence (front-running) attacks (e.g. pre-commit scheme). | 1.0 |
 | **8.8** | Verify that contract does not send funds automatically, but lets users withdraw funds on their own in separate transaction. | 1.0 |
+| **8.9** | Verify that inherited contracts does not contain identical functions or the order of inheritance is carefully specified. | 1.0 |
+
 
 ## References
 
 For more information, see also:
 
 * [Solidity Recommendations](https://consensys.github.io/smart-contract-best-practices/recommendations/)
+* [SWC-125 Incorrect Inheritance Order](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-125)
