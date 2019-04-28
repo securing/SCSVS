@@ -2,8 +2,9 @@
 
 ## Control Objective
 
-Ensure that a verified contract satisfies the following high level requirements:
-* TODO
+Access control is the process of granting or denying specific requests to obtain and use information and related information processing services. Ensure that a verified contract satisfies the following high level requirements:
+* Users and other contracts are associated with a well-defined set of roles and privileges.
+* Access is granted to privileged users and contracts.
 
 Category “V2” lists requirements related to the access control mechanisms of the smart contracts.
 
