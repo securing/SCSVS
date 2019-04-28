@@ -3,7 +3,8 @@
 ## Control Objective
 
 Ensure that a verified contract satisfies the following high level requirements:
-* TODO
+* All related smart contracts are identified and used properly.
+* Specific smart contracts security assumptions are considered in design phase.
 
 Category “V1” lists requirements related to the architecture, design and threat modelling of the smart contracts.
 
@@ -27,10 +28,8 @@ Category “V1” lists requirements related to the architecture, design and thr
 ## References
 
 For more information, see also:
-
-* [OWASP Threat Modeling Cheat Sheet](https://www.owasp.org/index.php/Threat_Modeling_Cheat_Sheet)
-* [OWASP Attack Surface Analysis Cheat Sheet](https://www.owasp.org/index.php/Attack_Surface_Analysis_Cheat_Sheet)
+* [OWASP Threat Modeling Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Threat_Modeling_Cheat_Sheet.md)
+* [OWASP Attack Surface Analysis Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.md)
 * [OWASP Threat modeling](https://www.owasp.org/index.php/Application_Threat_Modeling)
-* [OWASP Secure SDLC Cheat Sheet](https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet)
 * [Microsoft SDL](https://www.microsoft.com/en-us/sdl/)
 * [NIST SP 800-57](https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-4/final)
