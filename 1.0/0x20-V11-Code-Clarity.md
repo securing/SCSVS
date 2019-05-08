@@ -2,6 +2,12 @@
 
 ## Control Objective
 
+Ensure that a verified contract satisfies the following high level requirements:
+* The code is clear and easy to read.
+* There are no unwanted or unused parts of the code.
+* Variable names are in line with good practices.
+* Used functions are secure.
+
 Category “V11” lists requirements related to the code clarity of the smart contracts.
 
 ## Security Verification Requirements
