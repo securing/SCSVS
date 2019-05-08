@@ -2,8 +2,11 @@
 
 ## Control Objective
 
+The efficiency of gas consumption should be taken into account not only in terms of optimization, but also in terms of safety to avoid possible exhaustions. Smart contracts by nature have different limitations that, if they are not taken into account, can cause different vulnerabilities.
+
 Ensure that a verified contract satisfies the following high level requirements:
-* TODO
+* The use of gas is optimized and unnecessary losses are prevented.
+* The implementation is in line with the smart contracts limitations.
 
 Category “V7” lists requirements related to gas and smart contract limitations.
 
