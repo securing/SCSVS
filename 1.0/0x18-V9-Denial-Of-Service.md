@@ -2,6 +2,9 @@
 
 ## Control Objective
 
+Ensure that a verified contract satisfies the following high level requirements:
+* Contracts logic prevents influencing the availability of contracts.
+
 Category “V9” lists requirements related to the possible denial of service of the smart contracts.
 
 ## Security Verification Requirements
