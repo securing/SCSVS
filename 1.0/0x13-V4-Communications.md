@@ -2,6 +2,8 @@
 
 ## Control Objective
 
+Communications includes the topic of the relations between smart contracts and their libraries.
+
 Ensure that a verified contract satisfies the following high level requirements:
 * The external calls from and to other contracts have considered abuse case and are authorized.
 * Used libraries are safe and the state-of-the-art security libraries are used.
