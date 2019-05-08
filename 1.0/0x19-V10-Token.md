@@ -2,6 +2,9 @@
 
 ## Control Objective
 
+Ensure that a verified contract satisfies the following high level requirements:
+* Implemented token follows security standards
+
 Category “V10” lists requirements related to the token of the smart contracts.
 
 ## Security Verification Requirements
