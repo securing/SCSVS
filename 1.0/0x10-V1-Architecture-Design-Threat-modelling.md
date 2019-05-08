@@ -2,6 +2,8 @@
 
 ## Control Objective
 
+Architecture, design and threat modelling in the contex of creating secure smart contracts, consider all possible threats before the implementation of the smart contract.
+
 Ensure that a verified contract satisfies the following high level requirements:
 * All related smart contracts are identified and used properly.
 * Specific smart contracts security assumptions are considered in design phase.
