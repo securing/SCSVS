@@ -3,7 +3,7 @@
 ## Control Objective
 
 Ensure that a verified contract satisfies the following high level requirements:
-* TODO
+* All mathematical operations and extreme variable values are handled in a safe and predictable manner.
 
 Category “V5” lists requirements related to the arithmetic operations of the smart contracts.
 
