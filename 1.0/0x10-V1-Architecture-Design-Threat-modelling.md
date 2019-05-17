@@ -4,8 +4,8 @@
 
 Architecture, design and threat modelling in the context of creating secure smart contracts.
 Consider all possible threats before the implementation of the smart contract.
-Ensure that a verified contract satisfies the following high level requirements:
 
+Ensure that a verified contract satisfies the following high level requirements:
 * All related smart contracts are identified and used properly,
 * Specific smart contracts security assumptions are considered during the design phase.
 
