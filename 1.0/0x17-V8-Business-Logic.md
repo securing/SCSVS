@@ -3,7 +3,6 @@
 ## Control Objective
 
 To build secure smart contracs, we need to consider security of their business logic. Some of the smart contracts are influenced by vulnerrabilities by their design.
-
 The components used should not be considered safe without verification. Business assumptions should meet with the principle of minimal trust, which is essential in building smart contracts.
 
 Ensure that a verified contract satisfies the following high level requirements:
