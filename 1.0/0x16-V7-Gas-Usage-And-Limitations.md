@@ -2,10 +2,10 @@
 
 ## Control Objective
 
-The efficiency of gas consumption should be taken into account not only in terms of optimization, but also in terms of safety to avoid possible exhaustions. Smart contracts by nature have different limitations that, if they are not taken into account, can cause different vulnerabilities.
+The efficiency of gas consumption should be taken into account not only in terms of optimization, but also in terms of safety to avoid possible exhaustion. Smart contracts by nature have different limitations that, if they are not taken into account, can cause different vulnerabilities.
 
 Ensure that a verified contract satisfies the following high level requirements:
-* The use of gas is optimized and unnecessary losses are prevented.
+* The use of gas is optimized and unnecessary losses are prevented,
 * The implementation is in line with the smart contracts limitations.
 
 Category “V7” lists requirements related to gas and smart contract limitations.
@@ -14,8 +14,8 @@ Category “V7” lists requirements related to gas and smart contract limitatio
 
 | # | Description | Since |
 | --- | --- | --- |
-| **7.1** | Verify that the usage of gas in an smart contracts is be anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. | 1.0 |
-| **7.2** | Verify that two types of the addresses are considered when using *send* function. Sending Ether to contract address costs more that sending Ether to personal address. | 1.0 |
+| **7.1** | Verify that the usage of gas in a smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. | 1.0 |
+| **7.2** | Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more that sending Ether to personal address. | 1.0 |
 | **7.3** | Verify that the contract does not iterate over unbound loops. | 1.0 |
 | **7.4** | Verify that the contract does not check whether the address is a contract using *extcodesize* opcode. | 1.0 |
 | **7.5** | Verify that contract does not generate pseudorandom numbers trivially basing on the information from blockchain (e.g. seeding with the block number). | 1.0 |
