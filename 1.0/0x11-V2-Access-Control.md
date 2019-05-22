@@ -15,7 +15,7 @@ Category “V2” lists requirements related to the access control mechanisms of
 | # | Description | Since |
 | --- | --- | --- |
 | **2.1** | Verify that the principle of least privilege exists - other contracts should only be able to access functions and data for which they possess specific authorization. | 1.0 |
-| **2.2** | Verify that the principle of deny by default exists whereby new contracts that are allowed to access the audited contract start with minimal or no permissions and do not receive access to new features until access is explicitly granted. | 1.0 |
+| **2.2** | Verify that new contracts with access to the audited contract adhere to the principle of minimum rights by default. Contracts should have minimal or no permissions until access to new features is explicitly granted. | 1.0 |
 | **2.3** | Verify that the creator of the contract complies with the rule of least privilege and his rights strictly follow the documentation. The ability to upgrade the libraries is a good practice. | 1.0 |
 | **2.4** | Verify that the contract enforces access control rules specified in a trusted contract, especially if dApp client-side access control is present and could be bypassed. | 1.0 |
 | **2.5** | Verify that there is a centralized mechanism for protecting access to each type of protected resource. | 1.0 |
