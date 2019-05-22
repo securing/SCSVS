@@ -15,9 +15,9 @@ Category “V1” lists requirements related to the architecture, design and thr
 
 | # | Description | Since |
 | --- | --- | --- |
-| **1.1** | Verify the use of threat modeling for every design change or sprint planning to identify threats, plan for countermeasures, facilitate appropriate risk responses, and guide security testing. | 1.0 |
-| **1.2** | Verify documentation and justification of all the contract trust boundaries (trusted relations with other contracts and significant data flows).  | 1.0 |
-| **1.3** | Verify availability of a secure coding checklist, security requirements, guideline, or policy to all developers and testers. | 1.0 |
+| **1.1** | Verify that every introduced design change is preceded by an earlier threat modelling. | 1.0 |
+| **1.2** | Check whether the documentation clearly and precisely defines all trust boundaries in the contract (trusted relations with other contracts and significant data flows).  | 1.0 |
+| **1.3** | Verify that SCSVS, security requirements or policy is available to all developers and testers. | 1.0 |
 | **1.4** | Verify that there exists an upgrade mechanism for contract which allows to deploy the security fixes. | 1.0 |
 | **1.5** | Verify that there is a component that monitors contract activity using events. | 1.0 |
 | **1.6** | Verify that there exists a mechanism that can temporarily stop the sensitive functionalities of the contract in case of a new attack. This mechanism should not block access to the assets (e.g. tokens) for the owners. | 1.0 |
