@@ -17,7 +17,7 @@ Category “V8” lists requirements related to the business logic of the smart 
 | # | Description | Since |
 | --- | --- | --- |
 | **8.1** | Verify that contract logic implementation corresponds to the documentation. | 1.0 |
-| **8.2** | Verify the contracts will only process business logic flows in sequentialstep order, with all steps being processed in realistic human time, and not process out of order, skipped steps or process steps from another user.  | 1.0 |
+| **8.2** | Verify that business logic flows of smart contracts proceed in sequential step order and it is not possible to skip any part of it or do it in a different order than designed.  | 1.0 |
 | **8.3** | Verify the contract has business limits and correctly enforces it. | 1.0 |
 | **8.4** | Verify that the business logic of contract does not rely on the values retrieved from untrusted contracts with multiple calls of the same function. | 1.0 |
 | **8.5** | Verify that you do not rely the contract logic on the balance of contract (e.g. balance == 0). | 1.0 |
