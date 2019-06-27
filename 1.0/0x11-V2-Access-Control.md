@@ -12,20 +12,20 @@ Category “V2” lists requirements related to the access control mechanisms of
 
 ## Security Verification Requirements
 
-| # | Description | Since |
-| --- | --- | --- |
-| **2.1** | Verify that the principle of least privilege exists - other contracts should only be able to access functions and data for which they possess specific authorization. | 1.0 |
-| **2.2** | Verify that new contracts with access to the audited contract adhere to the principle of minimum rights by default. Contracts should have minimal or no permissions until access to new features is explicitly granted. | 1.0 |
-| **2.3** | Verify that the creator of the contract complies with the rule of least privilege and his rights strictly follow the documentation. The ability to upgrade the libraries is a good practice. | 1.0 |
-| **2.4** | Verify that the contract enforces access control rules specified in a trusted contract, especially if dApp client-side access control is present and could be bypassed. | 1.0 |
-| **2.5** | Verify that there is a centralized mechanism for protecting access to each type of protected resource. | 1.0 |
-| **2.6** | Verify that the calls to external contracts are allowed only if necessary. | 1.0 |
-| **2.7** | Verify that visibility of all functions is specified. | 1.0 |
-| **2.8** | Verify that the initialization functions are marked internal and cannot be executed twice. | 1.0 |
-| **2.9** | Verify that the code of modifiers is clear and simple. The logic should not contain external calls to untrusted contracts. | 1.0 |
-| **2.10** | Verify that contract relies on the data provided by right sender and contract does not rely on tx.origin value. | 1.0 |
-| **2.11** | Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. | 1.0 |
-| **2.12** | Verify that access controls fail securely including when a revert occurs. | 1.0 |
+| # | Description |
+| --- | --- |
+| **2.1** | Verify that the principle of least privilege exists - other contracts should only be able to access functions and data for which they possess specific authorization. | 
+| **2.2** | Verify that new contracts with access to the audited contract adhere to the principle of minimum rights by default. Contracts should have minimal or no permissions until access to new features is explicitly granted. | 
+| **2.3** | Verify that the creator of the contract complies with the rule of least privilege and his rights strictly follow the documentation. The ability to upgrade the libraries is a good practice. | 
+| **2.4** | Verify that the contract enforces access control rules specified in a trusted contract, especially if dApp client-side access control is present and could be bypassed. | 
+| **2.5** | Verify that there is a centralized mechanism for protecting access to each type of protected resource. | 
+| **2.6** | Verify that the calls to external contracts are allowed only if necessary. | 
+| **2.7** | Verify that visibility of all functions is specified. | 
+| **2.8** | Verify that the initialization functions are marked internal and cannot be executed twice. | 
+| **2.9** | Verify that the code of modifiers is clear and simple. The logic should not contain external calls to untrusted contracts. | 
+| **2.10** | Verify that contract relies on the data provided by right sender and contract does not rely on tx.origin value. | 
+| **2.11** | Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. | 
+| **2.12** | Verify that access controls fail securely including when a revert occurs. | 
 
 ## References
 
