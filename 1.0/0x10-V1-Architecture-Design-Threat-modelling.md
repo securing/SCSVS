@@ -16,7 +16,7 @@ Category “V1” lists requirements related to the architecture, design and thr
 | # | Description |
 | --- | --- |
 | **1.1** | Verify that every introduced design change is preceded by an earlier threat modelling. | 
-| **1.2** | Check whether the documentation clearly and precisely defines all trust boundaries in the contract (trusted relations with other contracts and significant data flows).  | 
+| **1.2** | Verify that the documentation clearly and precisely defines all trust boundaries in the contract (trusted relations with other contracts and significant data flows).  | 
 | **1.3** | Verify that SCSVS, security requirements or policy is available to all developers and testers. | 
 | **1.4** | Verify that there exists an upgrade mechanism for contract which allows to deploy the security fixes. | 
 | **1.5** | Verify that there is a component that monitors contract activity using events. | 
