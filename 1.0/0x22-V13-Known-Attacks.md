@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-The _Known attacks_ category has a different form from other categories. It covers all known attacks and link them to the checks from other categories.
+The _Known attacks_ category has a different form from other categories. It covers all known attacks and link them to the requirements from other categories.
 
 The aim of this category is to ensure that a verified contract is protected from the known attacks.
 
