@@ -15,11 +15,27 @@ The aim of this category is to ensure that a verified contract is protected from
 | **13.2** | Verify that the contract is not vulnerable to Reentrancy attack.
 |     | [7.2] Verify that ... |
 | **13.3** | Verify that the contract is not vulnerable to Access Control issues.
-|     | [11.1] Verify that ... |
+|     | [2.1] Verify that the principle of least privilege exists - other contracts should only be able to access functions and data for which they possess specific authorization. |
+|     | [2.2] Verify that new contracts with access to the audited contract adhere to the principle of minimum rights by default. Contracts should have minimal or no permissions until access to new features is explicitly granted. |
+|     | [2.3] Verify that the creator of the contract complies with the rule of least privilege and his rights strictly follow the documentation. The ability to upgrade the libraries is a good practice. |
+|     | [2.4] Verify that the contract enforces access control rules specified in a trusted contract, especially if dApp client-side access control is present and could be bypassed. |
+|     | [2.5] Verify that there is a centralized mechanism for protecting access to each type of protected resource. |
+|     | [2.6] Verify that the calls to external contracts are allowed only if necessary. |
+|     | [2.7] Verify that visibility of all functions is specified. |
+|     | [2.8] Verify that the initialization functions are marked internal and cannot be executed twice. |
+|     | [2.9] Verify that the code of modifiers is clear and simple. The logic should not contain external calls to untrusted contracts. |
+|     | [2.10] Verify that contract relies on the data provided by right sender and contract does not rely on tx.origin value. |
+|     | [2.11] Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. |
+|     | [2.12] Verify that access controls fail securely including when a revert occurs. |
 | **13.4** | Verify that the contract is not vulnerable to Silent Failing Sends and Unchecked-Send attacks.
 |     | [7.2] Verify that ... |
 | **13.5** | Verify that the contract is not vulnerable to Denial of Service attacks.
-|     | [11.1] Verify that ... |
+|     | [9.1] Verify that self destruct functionality is used only if necessary. |
+|     | [9.2] Verify that the business logic does not block its flows when any of the participants is absent forever. |
+|     | [9.3] Verify that the contract logic does not disincentivize users to use contracts (e.g. the cost of transaction is higher that the profit). |
+|     | [9.4] Verify that expressions of functions assert or require have a passing variant. |
+|     | [9.5] Verify that if fallback function is not callable by anyone, it is not blocking the functionalities of contract and the contract is not vulnerable to Denial of Service attacks. |
+|     | [9.6] Verify that the function calls to external contracts (e.g. send, call) are not the arguments of require and assert functions. |
 | **13.6** | Verify that the contract is not vulnerable to Bad Randomness issues.
 |     | [7.2] Verify that ... |
 | **13.7** | Verify that the contract is not vulnerable to Front-Running attacks.
@@ -29,7 +45,13 @@ The aim of this category is to ensure that a verified contract is protected from
 | **13.9** | Verify that the contract is not vulnerable to Short Address Attack.
 |     | [11.1] Verify that ... |
 | **13.10** | Verify that the contract is not vulnerable to Insufficient Gas Griefing attack.
-|     | [7.2] Verify that ... |
+|     | [7.1] Verify that Verify that the usage of gas in a smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. |
+|     | [7.2] Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more that sending Ether to personal address. |
+|     | [7.3] Verify that the contract does not iterate over unbound loops. |
+|     | [7.4] Verify that the contract does not check whether the address is a contract using extcodesize opcode. |
+|     | [7.5] Verify that contract does not generate pseudorandom numbers trivially basing on the information from blockchain (e.g. seeding with the block number). |
+|     | [7.6] Verify that contract does not assume fixed-point precision and use a multiplier or store both the numerator and denominator. |
+|     | [7.10] Verify that the external keyword is used for functions that can be called externally only to save gas. |
 
 ## References
 
