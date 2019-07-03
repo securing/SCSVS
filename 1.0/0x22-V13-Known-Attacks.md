@@ -14,8 +14,22 @@ The aim of this category is to ensure that a verified contract is protected from
 |     | [11.1] Verify that ... |
 | **13.2** | Verify that the contract is not vulnerable to Reentrancy attack.
 |     | [7.2] Verify that ... |
-
-
+| **13.3** | Verify that the contract is not vulnerable to Access Control issues.
+|     | [11.1] Verify that ... |
+| **13.4** | Verify that the contract is not vulnerable to Silent Failing Sends and Unchecked-Send attacks.
+|     | [7.2] Verify that ... |
+| **13.5** | Verify that the contract is not vulnerable to Denial of Service attacks.
+|     | [11.1] Verify that ... |
+| **13.6** | Verify that the contract is not vulnerable to Bad Randomness issues.
+|     | [7.2] Verify that ... |
+| **13.7** | Verify that the contract is not vulnerable to Front-Running attacks.
+|     | [11.1] Verify that ... |
+| **13.8** | Verify that the contract is not vulnerable to Time Manipulation issues.
+|     | [7.2] Verify that ... |
+| **13.9** | Verify that the contract is not vulnerable to Short Address Attack.
+|     | [11.1] Verify that ... |
+| **13.10** | Verify that the contract is not vulnerable to Insufficient Gas Griefing attack.
+|     | [7.2] Verify that ... |
 
 ## References
 
