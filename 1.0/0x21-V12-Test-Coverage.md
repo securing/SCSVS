@@ -22,6 +22,7 @@ Category “V12” lists requirements related to the testing process of the smar
 
 For more information, see also:
 
+* [Formal Verification](https://solidity.readthedocs.io/en/v0.5.10/security-considerations.html#formal-verification)
 * [Code coverage for Solidity testing](https://github.com/sc-forks/solidity-coverage)
 * [Remix IDE](https://remix.ethereum.org/)
 * [MythX Plugin for Truffle](https://github.com/ConsenSys/truffle-security)

@@ -32,3 +32,4 @@ Category “V2” lists requirements related to the access control mechanisms of
 For more information, see also:
 
 * [OWASP Cheat Sheet: Access Control](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Access_Control_Cheat_Sheet.md)
+* [OpenZeppelin: Role-Based Access Control](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/852e11c2dbb19a4000decacf1840f5e4c29c5543/docs/access-control.md#role-based-access-control)

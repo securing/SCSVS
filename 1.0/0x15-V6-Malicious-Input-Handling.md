@@ -20,4 +20,5 @@ Category “V6” lists requirements related to the malicious input to the funct
 
 For more information, see also:
 
-* TODO
+* [Security Considerations - Sending and Receiving Ether](https://solidity.readthedocs.io/en/v0.5.10/security-considerations.html#sending-and-receiving-ether)
+* [OpenZeppelin: SafeMath](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol)

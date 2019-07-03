@@ -26,7 +26,9 @@ Category “V4” lists requirements related to the function calls between the v
 ## References
 
 For more information, see also:
-* [Security Considerations - Sending and Receiving Ether](https://solidity.readthedocs.io/en/v0.5.3/security-considerations.html#sending-and-receiving-ether)
+
+* [Security Considerations: Sending and Receiving Ether](https://solidity.readthedocs.io/en/v0.5.10/security-considerations.html#sending-and-receiving-ether)
+* [DASP 10: Unchecked Return Values For Low Level Calls](https://www.dasp.co/#item-4)
 * [SWC-107 Reentrancy](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-107)
 * [SWC-112 Delegatecall to Untrusted Callee](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-112)
 

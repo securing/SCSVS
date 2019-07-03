@@ -19,4 +19,6 @@ Category “V5” lists requirements related to the arithmetic operations of the
 
 For more information, see also:
 
-* TODO
+* [DASP 10: Artithmetic Issues](https://www.dasp.co/#item-3)
+* [OpenZeppelin: SafeMath](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol)
+* [SWC-101 Integer Overflow and Underflow](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101)

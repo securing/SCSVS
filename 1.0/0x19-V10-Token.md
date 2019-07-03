@@ -20,4 +20,4 @@ Category “V10” lists requirements related to the token of the smart contract
 
 For more information, see also:
 
-* [OWASP Threat Modeling Cheat Sheet](https://www.owasp.org/index.php/Threat_Modeling_Cheat_Sheet)
+* [Token Implementation Best Practice](https://consensys.github.io/smart-contract-best-practices/tokens/)

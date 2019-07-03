@@ -29,4 +29,7 @@ Category “V7” lists requirements related to gas and smart contract limitatio
 
 For more information, see also:
 
-* TODO
+* [DASP 10: Bad Randomness](https://www.dasp.co/#item-6)
+* [Gas Limit and Loops](https://solidity.readthedocs.io/en/v0.5.10/security-considerations.html#gas-limit-and-loops)
+* [Insufficient gas griefing](https://consensys.github.io/smart-contract-best-practices/known_attacks/#insufficient-gas-griefing)
+* [SWC-121 Missing Protection against Signature Replay Attacks](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-121)

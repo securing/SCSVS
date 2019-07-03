@@ -31,5 +31,8 @@ Category “V8” lists requirements related to the business logic of the smart 
 
 For more information, see also:
 
+* [Timestamp Dependence](https://consensys.github.io/smart-contract-best-practices/recommendations/#timestamp-dependence)
+* [DASP 10: Front-Running](https://www.dasp.co/#item-7)
+* [Front-Running (AKA Transaction-Ordering Dependence)](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
 * [Solidity Recommendations](https://consensys.github.io/smart-contract-best-practices/recommendations/)
 * [SWC-125 Incorrect Inheritance Order](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-125)

@@ -34,4 +34,4 @@ Category “V11” lists requirements related to the code clarity of the smart c
 
 For more information, see also:
 
-* [OWASP Threat Modeling Cheat Sheet](https://www.owasp.org/index.php/Threat_Modeling_Cheat_Sheet)
+* [Solidity: Security Considerations & Recommendations](https://solidity.readthedocs.io/en/v0.5.10/security-considerations.html#recommendations)
