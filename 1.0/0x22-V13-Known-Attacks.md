@@ -44,7 +44,7 @@ The aim of this category is to ensure that a verified contract is protected from
 | **13.7** | Verify that the contract is not vulnerable to Front-Running attacks.
 |     | [8.7] Verify that contract uses mechanisms that mitigate transaction-ordering dependence (front-running) attacks (e.g. pre-commit scheme). |
 | **13.8** | Verify that the contract is not vulnerable to Time Manipulation issues.
-|     | [7.2] Verify that ... |
+|     | [8.6] Verify that the sensitive operations of contract does not depend on the block data (ie. block hash, timestamp). |
 | **13.9** | Verify that the contract is not vulnerable to Short Address Attack.
 |     | [6.2] 	Verify that the length of passed address is determined and validated by smart contract. |
 | **13.10** | Verify that the contract is not vulnerable to Insufficient Gas Griefing attack.
