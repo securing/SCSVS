@@ -40,7 +40,7 @@ The aim of this category is to ensure that a verified contract is protected from
 |     | [9.5] Verify that if fallback function is not callable by anyone, it is not blocking the functionalities of contract and the contract is not vulnerable to Denial of Service attacks. |
 |     | [9.6] Verify that the function calls to external contracts (e.g. send, call) are not the arguments of require and assert functions. |
 | **13.6** | Verify that the contract is not vulnerable to Bad Randomness issues.
-|     | [7.2] Verify that ... |
+|     | [7.5] Verify that contract does not generate pseudorandom numbers trivially basing on the information from blockchain (e.g. seeding with the block number). |
 | **13.7** | Verify that the contract is not vulnerable to Front-Running attacks.
 |     | [8.7] Verify that contract uses mechanisms that mitigate transaction-ordering dependence (front-running) attacks (e.g. pre-commit scheme). |
 | **13.8** | Verify that the contract is not vulnerable to Time Manipulation issues.
