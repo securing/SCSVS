@@ -11,7 +11,7 @@ We would like to thank aftermentioned people for the initial feedback on SCSVS:
 
 ## Community
 
-We would like to thank the creators of the following sites that are great source of information about security of smart contracts:
+We would like to thank the creators of the following websites, which are a great source of information about the security of smart contracts:
 
 * [Decentralized Application Security Project Top 10](https://dasp.co/)
 * [Ethereum Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
