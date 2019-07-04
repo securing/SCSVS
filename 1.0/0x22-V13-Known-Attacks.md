@@ -29,10 +29,12 @@ The aim of this category is to ensure that a verified contract is protected from
 |     | [2.11] Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. |
 |     | [2.12] Verify that access controls fail securely including when a revert occurs. |
 |     | [3.4] Verify that there is a component that monitors access to sensitive contract data using events. |
+|     | [7.4] Verify that the contract does not check whether the address is a contract using extcodesize opcode. |
 | **13.4** | Verify that the contract is not vulnerable to Silent Failing Sends and Unchecked-Send attacks.
 |     | [4.6] Verify that the result of low-level function calls (e.g. send, delegatecall, call) from another contracts is checked. |
 |     | [4.7] Verify that third party contracts does not shadow special functions (e.g. revert). |
 | **13.5** | Verify that the contract is not vulnerable to Denial of Service attacks.
+|     | [7.3] Verify that the contract does not iterate over unbound loops. |
 |     | [9.1] Verify that self destruct functionality is used only if necessary. |
 |     | [9.2] Verify that the business logic does not block its flows when any of the participants is absent forever. |
 |     | [9.3] Verify that the contract logic does not disincentivize users to use contracts (e.g. the cost of transaction is higher that the profit). |
@@ -48,12 +50,10 @@ The aim of this category is to ensure that a verified contract is protected from
 | **13.9** | Verify that the contract is not vulnerable to Short Address Attack.
 |     | [6.2] 	Verify that the length of passed address is determined and validated by smart contract. |
 | **13.10** | Verify that the contract is not vulnerable to Insufficient Gas Griefing attack.
-|     | [7.1] Verify that Verify that the usage of gas in a smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. |
+|     | [7.1] Verify that the usage of gas in smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. |
 |     | [7.2] Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more that sending Ether to personal address. |
 |     | [7.3] Verify that the contract does not iterate over unbound loops. |
-|     | [7.4] Verify that the contract does not check whether the address is a contract using extcodesize opcode. |
-|     | [7.5] Verify that contract does not generate pseudorandom numbers trivially basing on the information from blockchain (e.g. seeding with the block number). |
-|     | [7.6] Verify that contract does not assume fixed-point precision and use a multiplier or store both the numerator and denominator. |
+|     | [7.4] Verify that the contract does not check whether the address is a contract using *extcodesize* opcode. |
 |     | [7.10] Verify that the external keyword is used for functions that can be called externally only to save gas. |
 
 ## References
