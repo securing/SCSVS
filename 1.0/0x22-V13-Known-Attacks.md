@@ -11,9 +11,10 @@ The aim of this category is to ensure that a verified contract is protected from
 | # | Description | 
 | --- | --- |
 | **13.1** | Verify that the contract is not vulnerable to Integer Overflow and Underflow attacks.
-|     | [11.1] Verify that ... |
+|     | [5.1] Verify that the values and math operations are resistant to integer overflows. Use SafeMath library for arithmetic operations. |
+|     | [5.2] Verify that the extreme values (e.g. maximum and minimum values of the variable type) are considered and does change the logic flow of the contract. |
 | **13.2** | Verify that the contract is not vulnerable to Reentrancy attack.
-|     | [7.2] Verify that ... |
+|     | [4.5] Verify that re-entrancy attack is mitigated by blocking recursive calls from other contracts. Do not use call and send function unless it is a must. |
 | **13.3** | Verify that the contract is not vulnerable to Access Control issues.
 |     | [2.1] Verify that the principle of least privilege exists - other contracts should only be able to access functions and data for which they possess specific authorization. |
 |     | [2.2] Verify that new contracts with access to the audited contract adhere to the principle of minimum rights by default. Contracts should have minimal or no permissions until access to new features is explicitly granted. |
@@ -27,8 +28,10 @@ The aim of this category is to ensure that a verified contract is protected from
 |     | [2.10] Verify that contract relies on the data provided by right sender and contract does not rely on tx.origin value. |
 |     | [2.11] Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. |
 |     | [2.12] Verify that access controls fail securely including when a revert occurs. |
+|     | [3.4] Verify that there is a component that monitors access to sensitive contract data using events. |
 | **13.4** | Verify that the contract is not vulnerable to Silent Failing Sends and Unchecked-Send attacks.
-|     | [7.2] Verify that ... |
+|     | [4.6] Verify that the result of low-level function calls (e.g. send, delegatecall, call) from another contracts is checked. |
+|     | [4.7] Verify that third party contracts does not shadow special functions (e.g. revert). |
 | **13.5** | Verify that the contract is not vulnerable to Denial of Service attacks.
 |     | [9.1] Verify that self destruct functionality is used only if necessary. |
 |     | [9.2] Verify that the business logic does not block its flows when any of the participants is absent forever. |
@@ -39,11 +42,11 @@ The aim of this category is to ensure that a verified contract is protected from
 | **13.6** | Verify that the contract is not vulnerable to Bad Randomness issues.
 |     | [7.2] Verify that ... |
 | **13.7** | Verify that the contract is not vulnerable to Front-Running attacks.
-|     | [11.1] Verify that ... |
+|     | [8.7] Verify that contract uses mechanisms that mitigate transaction-ordering dependence (front-running) attacks (e.g. pre-commit scheme). |
 | **13.8** | Verify that the contract is not vulnerable to Time Manipulation issues.
 |     | [7.2] Verify that ... |
 | **13.9** | Verify that the contract is not vulnerable to Short Address Attack.
-|     | [11.1] Verify that ... |
+|     | [6.2] 	Verify that the length of passed address is determined and validated by smart contract. |
 | **13.10** | Verify that the contract is not vulnerable to Insufficient Gas Griefing attack.
 |     | [7.1] Verify that Verify that the usage of gas in a smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. |
 |     | [7.2] Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more that sending Ether to personal address. |
