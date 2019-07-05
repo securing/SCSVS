@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-Ensure that a verified contract satisfies the following high level requirements:
+Ensure that a verified contract satisfies the following high-level requirements:
 * The code is clear and easy to read,
 * There are no unwanted or unused parts of the code,
 * Variable names are in line with good practices,
