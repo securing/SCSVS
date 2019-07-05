@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-Ensure that a verified contract satisfies the following high level requirements:
+Ensure that a verified contract satisfies the following high-level requirements:
 * The specification has been formally tested,
 * The implementation has been tested statically and dynamically,
 * The implementation has been tested using symbolic execution.
@@ -14,7 +14,7 @@ Category “V12” lists requirements related to the testing process of the smar
 | # | Description |
 | --- | --- |
 | **12.1** | Verify that all functions of verified contract are covered with tests in the development phase. |
-| **12.2** | Verify that the implementation of verified contract has been checked for security vulnerabilities using static and dynamic analyzers. |
+| **12.2** | Verify that the implementation of verified contract has been checked for security vulnerabilities using static and dynamic analysers. |
 | **12.3** | Verify that the specification of smart contract has been formally verified.  | 
 | **12.4** | Verify that the specification and the result of formal verification is included in the documentation.  | 
 
