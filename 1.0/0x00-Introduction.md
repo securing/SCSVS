@@ -24,7 +24,7 @@ Threat modelling and risk analysis are important parts of the security assessmen
 
 The SCSVS does not include the severity of the risks related to the requirements. Even though here exist multiple methodologies to assess the severity, each application is unique and so are the threat actors, their goals, and the impact of any breach. 
 
-Moreover, the requirements can not be uniquely linked to the security risks as many risks can refer to one requirement and many requirements can refer to one risk.
+Moreover, the requirements cannot be uniquely linked to the security risks as many risks can refer to one requirement and many requirements can refer to one risk.
 
 We recommend to determine the severity of the risks related with the requirements when performing the security assessment using SCSVS standard. 
 
