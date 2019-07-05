@@ -46,12 +46,12 @@ Category “V13” aims to ensure that a verified contract is protected from the
 | **13.7** | Verify that the contract is not vulnerable to Front-Running attacks.
 |     | [8.7] Verify that contract uses mechanisms that mitigate transaction-ordering dependence (front-running) attacks (e.g. pre-commit scheme). |
 | **13.8** | Verify that the contract is not vulnerable to Time Manipulation issues.
-|     | [8.6] Verify that the sensitive operations of contract does not depend on the block data (ie. block hash, timestamp). |
+|     | [8.6] Verify that the sensitive operations of contract does not depend on the block data (i.e. block hash, timestamp). |
 | **13.9** | Verify that the contract is not vulnerable to Short Address Attack.
 |     | [6.2] 	Verify that the length of passed address is determined and validated by smart contract. |
 | **13.10** | Verify that the contract is not vulnerable to Insufficient Gas Griefing attack.
 |     | [7.1] Verify that the usage of gas in smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. |
-|     | [7.2] Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more that sending Ether to personal address. |
+|     | [7.2] Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more than sending Ether to personal address. |
 |     | [7.3] Verify that the contract does not iterate over unbound loops. |
 |     | [7.4] Verify that the contract does not check whether the address is a contract using *extcodesize* opcode. |
 |     | [7.10] Verify that the external keyword is used for functions that can be called externally only to save gas. |
