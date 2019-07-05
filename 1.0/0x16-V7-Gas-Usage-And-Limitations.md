@@ -15,7 +15,7 @@ Category “V7” lists requirements related to gas and smart contract limitatio
 | # | Description |
 | --- | --- |
 | **7.1** | Verify that the usage of gas in a smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. | 
-| **7.2** | Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more that sending Ether to personal address. | 
+| **7.2** | Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more than sending Ether to personal address. | 
 | **7.3** | Verify that the contract does not iterate over unbound loops. | 
 | **7.4** | Verify that the contract does not check whether the address is a contract using *extcodesize* opcode. | 
 | **7.5** | Verify that contract does not generate pseudorandom numbers trivially basing on the information from blockchain (e.g. seeding with the block number). | 
