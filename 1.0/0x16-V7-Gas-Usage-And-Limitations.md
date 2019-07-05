@@ -4,9 +4,9 @@
 
 The efficiency of gas consumption should be taken into account not only in terms of optimization, but also in terms of safety to avoid possible exhaustion. Smart contracts by nature have different limitations that, if they are not taken into account, can cause different vulnerabilities.
 
-Ensure that a verified contract satisfies the following high level requirements:
+Ensure that a verified contract satisfies the following high-level requirements:
 * The use of gas is optimized and unnecessary losses are prevented,
-* The implementation is in line with the smart contracts limitations.
+* The implementation is in line with the smart contracts' limitations.
 
 Category “V7” lists requirements related to gas and smart contract limitations.
 
@@ -14,7 +14,7 @@ Category “V7” lists requirements related to gas and smart contract limitatio
 
 | # | Description |
 | --- | --- |
-| **7.1** | Verify that the usage of gas in a smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. | 
+| **7.1** | Verify that the usage of gas in a smart contract is anticipated, defined and have clear limitations that cannot be exceeded. Both, code structure and malicious input should not cause gas exhaustion. | 
 | **7.2** | Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more than sending Ether to personal address. | 
 | **7.3** | Verify that the contract does not iterate over unbound loops. | 
 | **7.4** | Verify that the contract does not check whether the address is a contract using *extcodesize* opcode. | 
