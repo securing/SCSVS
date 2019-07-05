@@ -32,10 +32,10 @@ Category “V13” aims to ensure that a verified contract is protected from the
 |     | [7.4] Verify that the contract does not check whether the address is a contract using extcodesize opcode. |
 | **13.4** | Verify that the contract is not vulnerable to Silent Failing Sends and Unchecked-Send attacks.
 |     | [4.6] Verify that the result of low-level function calls (e.g. send, delegatecall, call) from another contracts is checked. |
-|     | [4.7] Verify that third party contracts does not shadow special functions (e.g. revert). |
+|     | [4.7] Verify that third party contracts do not shadow special functions (e.g. revert). |
 | **13.5** | Verify that the contract is not vulnerable to Denial of Service attacks.
 |     | [7.3] Verify that the contract does not iterate over unbound loops. |
-|     | [9.1] Verify that self destruct functionality is used only if necessary. |
+|     | [9.1] Verify that self-destruct functionality is used only if necessary. |
 |     | [9.2] Verify that the business logic does not block its flows when any of the participants is absent forever. |
 |     | [9.3] Verify that the contract logic does not disincentivize users to use contracts (e.g. the cost of transaction is higher that the profit). |
 |     | [9.4] Verify that expressions of functions assert or require have a passing variant. |
@@ -46,11 +46,11 @@ Category “V13” aims to ensure that a verified contract is protected from the
 | **13.7** | Verify that the contract is not vulnerable to Front-Running attacks.
 |     | [8.7] Verify that contract uses mechanisms that mitigate transaction-ordering dependence (front-running) attacks (e.g. pre-commit scheme). |
 | **13.8** | Verify that the contract is not vulnerable to Time Manipulation issues.
-|     | [8.6] Verify that the sensitive operations of contract does not depend on the block data (i.e. block hash, timestamp). |
+|     | [8.6] Verify that the sensitive operations of contract do not depend on the block data (i.e. block hash, timestamp). |
 | **13.9** | Verify that the contract is not vulnerable to Short Address Attack.
 |     | [6.2] 	Verify that the length of passed address is determined and validated by smart contract. |
 | **13.10** | Verify that the contract is not vulnerable to Insufficient Gas Griefing attack.
-|     | [7.1] Verify that the usage of gas in smart contracts is anticipated, defined and have clear limitations that can not be exceeded. Both, code structure and malicious input should not cause gas exhaustion. |
+|     | [7.1] Verify that the usage of gas in smart contracts is anticipated, defined and have clear limitations that cannot be exceeded. Both, code structure and malicious input should not cause gas exhaustion. |
 |     | [7.2] Verify that two types of the addresses are considered when using the send function. Sending Ether to contract address costs more than sending Ether to personal address. |
 |     | [7.3] Verify that the contract does not iterate over unbound loops. |
 |     | [7.4] Verify that the contract does not check whether the address is a contract using *extcodesize* opcode. |
