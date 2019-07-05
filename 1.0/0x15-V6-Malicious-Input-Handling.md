@@ -4,7 +4,7 @@
 
 Values obtained as parameters by smart contracts should be validated.
 
-Ensure that a verified contract satisfies the following high level requirements:
+Ensure that a verified contract satisfies the following high-level requirements:
 * Passed function parameters are handled in a safe and predictable manner.
 
 Category “V6” lists requirements related to the malicious input to the functions of smart contracts.
