@@ -4,7 +4,7 @@
 
 The _Known attacks_ category has a different form from other categories. It covers all known attacks and link them to the requirements from other categories.
 
-The aim of this category is to ensure that a verified contract is protected from the known attacks.
+Category “V13” aims to ensure that a verified contract is protected from the known attacks.
 
 ## Security Verification Requirements
 
