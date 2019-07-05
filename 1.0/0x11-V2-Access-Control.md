@@ -4,7 +4,7 @@
 
 Access control is the process of granting or denying specific requests to obtain and use information and related information processing services.
 
-Ensure that a verified contract satisfies the following high level requirements:
+Ensure that a verified contract satisfies the following high-level requirements:
 * Users and other contracts are associated with a well-defined set of roles and privileges,
 * Access is granted to privileged users and contracts.
 
