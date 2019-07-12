@@ -14,7 +14,7 @@ Category “V12” lists requirements related to the testing process of the smar
 | # | Description |
 | --- | --- |
 | **12.1** | Verify that all functions of verified contract are covered with tests in the development phase. |
-| **12.2** | Verify that the implementation of verified contract has been checked for security vulnerabilities using static and dynamic analysers. |
+| **12.2** | Verify that the implementation of verified contract has been checked for security vulnerabilities using static and dynamic analysis. |
 | **12.3** | Verify that the specification of smart contract has been formally verified.  | 
 | **12.4** | Verify that the specification and the result of formal verification is included in the documentation.  | 
 

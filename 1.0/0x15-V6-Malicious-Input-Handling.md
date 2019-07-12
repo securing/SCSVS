@@ -5,7 +5,7 @@
 Values obtained as parameters by smart contracts should be validated.
 
 Ensure that a verified contract satisfies the following high-level requirements:
-* Passed function parameters are handled in a safe and predictable manner.
+* The function parameters being passed are handled in a safe and predictable manner.
 
 Category “V6” lists requirements related to the malicious input to the functions of smart contracts.
 
@@ -13,8 +13,8 @@ Category “V6” lists requirements related to the malicious input to the funct
 
 | # | Description |
 | --- | --- |
-| **6.1** | Verify that if input (function parameters) is validated, the positive validation approach (whitelisting) is used. |
-| **6.2** | Verify that the length of passed address is determined and validated by smart contract. |
+| **6.1** | Verify that if the input (function parameters) is validated, the positive validation approach (whitelisting) is used. |
+| **6.2** | Verify that the length of the address being passed is determined and validated by smart contract. |
 
 ## References
 

@@ -6,7 +6,7 @@ Access control is the process of granting or denying specific requests to obtain
 
 Ensure that a verified contract satisfies the following high-level requirements:
 * Users and other contracts are associated with a well-defined set of roles and privileges,
-* Access is granted to privileged users and contracts.
+* Access is granted only to the privileged users and contracts.
 
 Category “V2” lists requirements related to the access control mechanisms of the smart contracts.
 
@@ -14,18 +14,18 @@ Category “V2” lists requirements related to the access control mechanisms of
 
 | # | Description |
 | --- | --- |
-| **2.1** | Verify that the principle of least privilege exists - other contracts should only be able to access functions and data for which they possess specific authorization. | 
-| **2.2** | Verify that new contracts with access to the audited contract adhere to the principle of minimum rights by default. Contracts should have minimal or no permissions until access to new features is explicitly granted. | 
+| **2.1** | Verify that the principle of least privilege exists - other contracts should only be able to access functions or data for which they possess specific authorization. | 
+| **2.2** | Verify that new contracts with access to the audited contract adhere to the principle of minimum rights by default. Contracts should have a minimal or no permission until access to the new features is explicitly granted. | 
 | **2.3** | Verify that the creator of the contract complies with the rule of least privilege and his rights strictly follow the documentation. The ability to upgrade the libraries is a good practice. | 
-| **2.4** | Verify that the contract enforces access control rules specified in a trusted contract, especially if dApp client-side access control is present and could be bypassed. | 
+| **2.4** | Verify that the contract enforces the access control rules specified in a trusted contract, especially if the dApp client-side access control is present (as the client-side access control can be easily bypassed). | 
 | **2.5** | Verify that there is a centralized mechanism for protecting access to each type of protected resource. | 
 | **2.6** | Verify that the calls to external contracts are allowed only if necessary. | 
 | **2.7** | Verify that visibility of all functions is specified. | 
 | **2.8** | Verify that the initialization functions are marked internal and cannot be executed twice. | 
 | **2.9** | Verify that the code of modifiers is clear and simple. The logic should not contain external calls to untrusted contracts. | 
-| **2.10** | Verify that contract relies on the data provided by right sender and contract does not rely on tx.origin value. | 
+| **2.10** | Verify that the contract relies on the data provided by right sender and contract does not rely on _tx.origin_ value. | 
 | **2.11** | Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. | 
-| **2.12** | Verify that access controls fail securely including when a revert occurs. | 
+| **2.12** | Verify that the access controls fail securely including when a revert occurs. | 
 
 ## References
 

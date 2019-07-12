@@ -3,7 +3,7 @@
 ## Control Objective
 
 Ensure that a verified contract satisfies the following high-level requirements:
-* Contracts logic prevents influencing the availability of contracts.
+* The contract logic prevents influencing the availability of the contract.
 
 Category “V9” lists requirements related to the possible denial of service of the smart contracts.
 
@@ -11,11 +11,11 @@ Category “V9” lists requirements related to the possible denial of service o
 
 | # | Description |
 | --- | --- |
-| **9.1** | Verify that self-destruct functionality is used only if necessary. | 
+| **9.1** | Verify that the self-destruct functionality is used only if necessary. | 
 | **9.2** | Verify that the business logic does not block its flows when any of the participants is absent forever.  | 
 | **9.3** | Verify that the contract logic does not disincentivize users to use contracts (e.g. the cost of transaction is higher that the profit). | 
-| **9.4** | Verify that expressions of functions assert or require have a passing variant. | 
-| **9.5** | Verify that if fallback function is not callable by anyone, it is not blocking the functionalities of contract and the contract is not vulnerable to Denial of Service attacks. | 
+| **9.4** | Verify that the expressions of functions assert or require to have a passing variant. | 
+| **9.5** | Verify that if the fallback function is not callable by anyone, it is not blocking the functionalities of contract and the contract is not vulnerable to Denial of Service attacks. | 
 | **9.6** | Verify that the function calls to external contracts (e.g. *send*, *call*) are not the arguments of *require* and *assert* functions. | 
 
 

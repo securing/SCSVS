@@ -12,7 +12,7 @@ Smart Contract Security Verification Standard is a FREE 13-part checklist create
 * Help to develop high quality code of the smart contracts.
 * Help to mitigate known vulnerabilities by design.
 * Provide a checklist for security reviewers.
-* Provide a clear and reliable assessment of how secure the smart contract is in the relation to the percentage of SCSVS coverage.
+* Provide a clear and reliable assessment of how secure a smart contract is in the relation to the percentage of SCSVS coverage.
 
 **Use cases**
 You can use the SCSVS checklist in multiple ways:
