@@ -32,6 +32,7 @@ Every category has a brief description of the control objectives and a list of s
 * V3: Blockchain Data
 * V4: Communications
 * V5: Arithmetic
+* V6: Malicious input handling
 * V7: Gas Usage & Limitations
 * V8: Business Logic
 * V9: Denial of Service
