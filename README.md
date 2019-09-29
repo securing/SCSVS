@@ -26,20 +26,22 @@ You can use the SCSVS checklist in multiple ways:
 The entire checklist is in a form similar to OWASP APPLICATION SECURITY VERIFICATION STANDARD v4.0.
 Every category has a brief description of the control objectives and a list of security verification requirements.
 
+[___Download SCSVS PDF version___](SCSVS_v1.0.pdf)
+
 **Key areas that have been included:**
-* V1: Architecture, Design and Threat Modelling
-* V2: Access Control
-* V3: Blockchain Data
-* V4: Communications
-* V5: Arithmetic
-* V6: Malicious Input Handling
-* V7: Gas Usage & Limitations
-* V8: Business Logic
-* V9: Denial of Service
-* V10: Token
-* V11: Code Clarity
-* V12: Test Coverage
-* V13: Known Attacks
+* [V1: Architecture, Design and Threat Modelling](./1.0/0x10-V1-Architecture-Design-Threat-modelling.md)
+* [V2: Access Control](./1.0/0x11-V2-Access-Control.md)
+* [V3: Blockchain Data](./1.0/0x12-V3-Blockchain-Data.md)
+* [V4: Communications](./1.0/0x13-V4-Communications.md)
+* [V5: Arithmetic](./1.0/0x14-V5-Arithmetic.md)
+* [V6: Malicious Input Handling](./1.0/0x15-V6-Malicious-Input-Handling.md)
+* [V7: Gas Usage & Limitations](./1.0/0x16-V7-Gas-Usage-And-Limitations.md)
+* [V8: Business Logic](./1.0/0x17-V8-Business-Logic.md)
+* [V9: Denial of Service](./1.0/0x18-V9-Denial-Of-Service.md)
+* [V10: Token](./1.0/0x19-V10-Token.md)
+* [V11: Code Clarity](./1.0/0x20-V11-Code-Clarity.md)
+* [V12: Test Coverage](./1.0/0x21-V12-Test-Coverage.md)
+* [V13: Known Attacks](./1.0/0x22-V13-Known-Attacks.md)
 
 **Severity of the risk**
 
