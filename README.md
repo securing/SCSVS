@@ -2,7 +2,7 @@
 
 ## Authors
 
-Damian Rusinek, Paweł Kuryłowicz
+Damian Rusinek (damian.rusinek@securing.pl), Paweł Kuryłowicz (pawel.kurylowicz@securing.pl)
 
 ## Introduction
 
