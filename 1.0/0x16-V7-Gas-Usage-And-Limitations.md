@@ -24,6 +24,7 @@ Category “V7” lists requirements related to gas and smart contract limitatio
 | **7.8** | Verify that there exists a mechanism that protects the contract from a replay attack in case of a hard-fork. | 
 | **7.9** | Verify that all library functions that should be upgradeable are not internal. | 
 | **7.10** | Verify that the *external* keyword is used for functions that can be called externally only to save gas. | 
+| **7.11** | Verify that there is no hard-coded amount of gas assigned to the function call (the gas prices may vary in the future). | 
 
 ## References
 
@@ -33,3 +34,5 @@ For more information, see also:
 * [Gas Limit and Loops](https://solidity.readthedocs.io/en/v0.5.10/security-considerations.html#gas-limit-and-loops)
 * [Insufficient gas griefing](https://consensys.github.io/smart-contract-best-practices/known_attacks/#insufficient-gas-griefing)
 * [SWC-121 Missing Protection against Signature Replay Attacks](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-121)
+* [EIP 150: Gas cost changes for IO-heavy operations](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-150.md)
+* [EIP 1344: ChainID opcode](https://eips.ethereum.org/EIPS/eip-1344)
