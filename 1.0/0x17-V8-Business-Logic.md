@@ -25,6 +25,7 @@ Category “V8” lists requirements related to the business logic of the smart 
 | **8.7** | Verify that the contract uses mechanisms that mitigate transaction-ordering dependence (front-running) attacks (e.g. pre-commit scheme). | 
 | **8.8** | Verify that the contract does not send funds automatically but it lets users withdraw funds on their own in separate transaction instead. | 
 | **8.9** | Verify that the inherited contracts do not contain identical functions or the order of inheritance is carefully specified. | 
+| **8.10** | Verify that the business logic does not compare the extcodehash return value with 0 to check whether another address is contract (the hash of empty data is returned in such case). | 
 
 
 ## References
@@ -36,3 +37,4 @@ For more information, see also:
 * [Front-Running (AKA Transaction-Ordering Dependence)](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
 * [Solidity Recommendations](https://consensys.github.io/smart-contract-best-practices/recommendations/)
 * [SWC-125 Incorrect Inheritance Order](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-125)
+* [EIP 1052: EXTCODEHASH Opcode](https://eips.ethereum.org/EIPS/eip-1052)
