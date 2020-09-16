@@ -15,6 +15,7 @@ Category “V10” lists requirements related to the token of the smart contract
 | **10.2** | Use the approved function of the ERC-20 standard to change allowed amount only to 0 or from 0.  |
 | **10.3** | Verify that the contract does not allow to transfer tokens to zero address. |
 | **10.4** | Verify that the re-entracy attack has been considered when using the token contracts with callbacks (e.g. ERC-777). |
+| **10.5** | Verify that the transfer business logic is consistent, especially when re-sending tokens to the same address (msg.sender == destination). |
 
 
 ## References
@@ -22,3 +23,4 @@ Category “V10” lists requirements related to the token of the smart contract
 For more information, see also:
 
 * [Token Implementation Best Practice](https://consensys.github.io/smart-contract-best-practices/tokens/)
+* [iToken Duplication Incident Report](https://bzx.network/blog/incident)
