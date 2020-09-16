@@ -17,7 +17,7 @@ Category “V9” lists requirements related to the possible denial of service o
 | **9.4** | Verify that the expressions of functions assert or require to have a passing variant. | 
 | **9.5** | Verify that if the fallback function is not callable by anyone, it is not blocking the functionalities of contract and the contract is not vulnerable to Denial of Service attacks. | 
 | **9.6** | Verify that the function calls to external contracts (e.g. *send*, *call*) are not the arguments of *require* and *assert* functions. | 
-
+| **9.7** | Verify that the function declarations are callable by the used compiler version (see the *Uncallable function example* link below). |
 
 ## References
 
@@ -29,3 +29,4 @@ For more information, see also:
 * [DoS with Block Gas Limit](https://consensys.github.io/smart-contract-best-practices/known_attacks/#dos-with-block-gas-limit)
 * [SWC-128 DoS With Block Gas Limit](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-128)
 * [SWC-113 DoS with Failed Call](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-113)
+* [Uncallable function example](https://github.com/ethereum/EIPs/issues/820#issuecomment-454021564)

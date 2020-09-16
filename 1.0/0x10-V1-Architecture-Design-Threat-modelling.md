@@ -26,7 +26,8 @@ Category “V1” lists requirements related to the architecture, design and thr
 | **1.9** | Verify that if the fallback function can be called by anyone it is included in the threat modelling. | 
 | **1.10** | Verify that the business logic in contracts is consistent. Important changes in the logic should be allowed for all or none of the contracts. | 
 | **1.11** | Verify that code analysis tools are in use that can detect potentially malicious code. | 
-| **1.12** | Verify that the latest version of Solidity is used. | 
+| **1.12** | Verify that the latest version of Solidity is used. |  
+| **1.13** | Verify that, when using the external implementation of contract, you use the current version hish has not been superseded. | 
 
 ## References
 
@@ -38,3 +39,4 @@ For more information, see also:
 * [Microsoft SDL](https://www.microsoft.com/en-us/sdl/)
 * [NIST SP 800-57](https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-4/final)
 * [Use events to monitor contract activity](https://consensys.github.io/smart-contract-best-practices/recommendations/#use-events-to-monitor-contract-activity)
+* [An example of superseded contract - EIP 1820](https://eips.ethereum.org/EIPS/eip-1820)
