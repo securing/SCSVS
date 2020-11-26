@@ -6,7 +6,7 @@ Damian Rusinek (damian.rusinek@securing.pl), Paweł Kuryłowicz (pawel.kurylowic
 
 ## Introduction
 
-Smart Contract Security Verification Standard is a FREE 13-part checklist created to standardize the security of smart contracts for developers, architects, security reviewers and vendors. This list helps to avoid the majority of known security problems and vulnerabilities by providing guidance at every stage of the development cycle of the smart contracts (from designing to implementation).
+Smart Contract Security Verification Standard (v1.1) is a FREE 14-part checklist created to standardize the security of smart contracts for developers, architects, security reviewers and vendors. This list helps to avoid the majority of known security problems and vulnerabilities by providing guidance at every stage of the development cycle of the smart contracts (from designing to implementation).
 
 **Objectives**
 * Help to develop high quality code of the smart contracts.
@@ -27,22 +27,23 @@ You can use the SCSVS checklist in multiple ways:
 The entire checklist is in a form similar to OWASP APPLICATION SECURITY VERIFICATION STANDARD v4.0.
 Every category has a brief description of the control objectives and a list of security verification requirements.
 
-[___Download SCSVS PDF version___](SCSVS_v1.0.pdf)
+[___Download SCSVS PDF version___](SCSVS_v1.1.pdf)
 
 **Key areas that have been included:**
-* [V1: Architecture, Design and Threat Modelling](./1.0/0x10-V1-Architecture-Design-Threat-modelling.md)
-* [V2: Access Control](./1.0/0x11-V2-Access-Control.md)
-* [V3: Blockchain Data](./1.0/0x12-V3-Blockchain-Data.md)
-* [V4: Communications](./1.0/0x13-V4-Communications.md)
-* [V5: Arithmetic](./1.0/0x14-V5-Arithmetic.md)
-* [V6: Malicious Input Handling](./1.0/0x15-V6-Malicious-Input-Handling.md)
-* [V7: Gas Usage & Limitations](./1.0/0x16-V7-Gas-Usage-And-Limitations.md)
-* [V8: Business Logic](./1.0/0x17-V8-Business-Logic.md)
-* [V9: Denial of Service](./1.0/0x18-V9-Denial-Of-Service.md)
-* [V10: Token](./1.0/0x19-V10-Token.md)
-* [V11: Code Clarity](./1.0/0x20-V11-Code-Clarity.md)
-* [V12: Test Coverage](./1.0/0x21-V12-Test-Coverage.md)
-* [V13: Known Attacks](./1.0/0x22-V13-Known-Attacks.md)
+* [V1: Architecture, Design and Threat Modelling](./1.1/0x10-V1-Architecture-Design-Threat-modelling.md)
+* [V2: Access Control](./1.1/0x11-V2-Access-Control.md)
+* [V3: Blockchain Data](./1.1/0x12-V3-Blockchain-Data.md)
+* [V4: Communications](./1.1/0x13-V4-Communications.md)
+* [V5: Arithmetic](./1.1/0x14-V5-Arithmetic.md)
+* [V6: Malicious Input Handling](./1.1/0x15-V6-Malicious-Input-Handling.md)
+* [V7: Gas Usage & Limitations](./1.1/0x16-V7-Gas-Usage-And-Limitations.md)
+* [V8: Business Logic](./1.1/0x17-V8-Business-Logic.md)
+* [V9: Denial of Service](./1.1/0x18-V9-Denial-Of-Service.md)
+* [V10: Token](./1.1/0x19-V10-Token.md)
+* [V11: Code Clarity](./1.1/0x20-V11-Code-Clarity.md)
+* [V12: Test Coverage](./1.1/0x21-V12-Test-Coverage.md)
+* [V13: Known Attacks](./1.1/0x22-V13-Known-Attacks.md)
+* [V14: Decentralized Finance](./1.1/0x23-V14-Decentralized-Finance.md)
 
 **Severity of the risk**
 
