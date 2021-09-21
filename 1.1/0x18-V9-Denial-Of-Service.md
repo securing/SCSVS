@@ -11,13 +11,14 @@ Category “V9” lists requirements related to the possible denial of service o
 
 | # | Description |
 | --- | --- |
-| **9.1** | Verify that the self-destruct functionality is used only if necessary. | 
+| **9.1** | Verify that the self-destruct functionality is used only if necessary. If it is included in the contract, it should be clearly described in the documentation. | 
 | **9.2** | Verify that the business logic does not block its flows when any of the participants is absent forever.  | 
 | **9.3** | Verify that the contract logic does not disincentivize users to use contracts (e.g. the cost of transaction is higher that the profit). | 
 | **9.4** | Verify that the expressions of functions assert or require to have a passing variant. | 
 | **9.5** | Verify that if the fallback function is not callable by anyone, it is not blocking the functionalities of contract and the contract is not vulnerable to Denial of Service attacks. | 
 | **9.6** | Verify that the function calls to external contracts (e.g. *send*, *call*) are not the arguments of *require* and *assert* functions. | 
 | **9.7** | Verify that the function declarations are callable by the used compiler version (see the *Uncallable function example* link below). |
+| **9.8** | Verify that there are no vulnerabilities associated with availability. | 
 
 ## References
 
