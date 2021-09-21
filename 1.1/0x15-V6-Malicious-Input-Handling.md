@@ -13,8 +13,9 @@ Category “V6” lists requirements related to the malicious input to the funct
 
 | # | Description |
 | --- | --- |
-| **6.1** | Verify that if the input (function parameters) is validated, the positive validation approach (whitelisting) is used. |
+| **6.1** | Verify that if the input (function parameters) is validated, the positive validation approach (allowlisting) is used where possible. |
 | **6.2** | Verify that the length of the address being passed is determined and validated by smart contract. |
+| **6.3** | Verify that there are no vulnerabilities associated with malicious input handling. |
 
 ## References
 
