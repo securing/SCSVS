@@ -26,6 +26,7 @@ Category “V8” lists requirements related to the business logic of the smart 
 | **8.8** | Verify that the contract does not send funds automatically but it lets users withdraw funds on their own in separate transaction instead. | 
 | **8.9** | Verify that the inherited contracts do not contain identical functions or the order of inheritance is carefully specified. | 
 | **8.10** | Verify that the business logic does not compare the extcodehash return value with 0 to check whether another address is contract (the hash of empty data is returned in such case). | 
+| **8.11** | Verify that there are no vulnerabilities associated with business logic. | 
 
 
 ## References
