@@ -25,7 +25,7 @@ Category “V7” lists requirements related to gas and smart contract limitatio
 | **7.9** | Verify that all library functions that should be upgradeable are not internal. | 
 | **7.10** | Verify that the *external* keyword is used for functions that can be called externally only to save gas. | 
 | **7.11** | Verify that there is no hard-coded amount of gas assigned to the function call (the gas prices may vary in the future). | 
-| **7.12** | Verify that there are no vulnerabilities associated with gas usage & limitations category. | 
+| **7.12** | Verify that there are no vulnerabilities associated with gas usage & limitations. | 
 
 ## References
 
