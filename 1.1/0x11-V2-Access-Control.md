@@ -26,6 +26,7 @@ Category “V2” lists requirements related to the access control mechanisms of
 | **2.10** | Verify that the contract relies on the data provided by right sender and contract does not rely on _tx.origin_ value. | 
 | **2.11** | Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. | 
 | **2.12** | Verify that the access controls fail securely including when a revert occurs. | 
+| **2.13** | Verify that there are no vulnerabilities associated with access control. | 
 
 ## References
 
