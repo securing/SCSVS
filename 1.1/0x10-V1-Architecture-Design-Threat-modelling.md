@@ -1,4 +1,4 @@
-# V1: Architecture, design and threat modelling
+# V1: Architecture, design and threat modeling
 
 ## Control Objective
 
@@ -29,6 +29,7 @@ Category “V1” lists requirements related to the architecture, design and thr
 | **1.12** | Verify that code analysis tools are in use that can detect potentially malicious code. | 
 | **1.13** | Verify that the latest version of the major Solidity release is used. |  
 | **1.14** | Verify that, when using the external implementation of contract, you use the current version which has not been superseded. | 
+| **1.15** | Verify that there are no vulnerabilities associated with system architecture and design. | 
 
 ## References
 
