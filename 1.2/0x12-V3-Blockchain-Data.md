@@ -20,6 +20,7 @@ Category “V3” lists requirements related to the blockchain data of the smart
 | **3.3** | Verify that the list of sensitive data processed by the smart contract is identified, and that there is an explicit policy for how access to this data must be controlled and enforced under relevant data protection directives. | 
 | **3.4** | Verify that there is a component that monitors access to sensitive contract data using events. | 
 | **3.5** | Verify that contract does not use string literals as keys for mappings. Verify that global constants are used instead to prevent Homoglyph attack. | 
+| **3.6** | Verify that there are no vulnerabilities associated with blockchain data. | 
 
 
 ## References

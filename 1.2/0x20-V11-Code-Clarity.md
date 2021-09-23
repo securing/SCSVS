@@ -27,6 +27,8 @@ Category “V11” lists requirements related to the code clarity of the smart c
 | **11.11** | Verify that the *require* function is used instead of the *revert* function in *if* statement. | 
 | **11.12** | Verify that the *assert* function is used to test for internal errors and the *require* function is used to ensure a valid condition on the input from users and external contracts. | 
 | **11.13** | Verify that assembly code is used only if necessary. | 
+| **11.14** | Verify that there is a description  in  the  form  of  1-2  short sentences of what the contract is for at the beginning of the contract. | 
+| **11.15** | Verify that if the system uses a ready-made implementation of the contract, it has been marked in the comment. If it contains changes from the original, those have been specified. |
 
 
 

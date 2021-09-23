@@ -21,6 +21,7 @@ Category “V4” lists requirements related to the function calls between the v
 | **4.5** | Verify that re-entrancy attack is mitigated by blocking recursive calls from other contracts. Do not use *call* and *send* function unless it is a must. | 
 | **4.6** | Verify that the result of low-level function calls (e.g. *send*, *delegatecall*, *call*) from another contracts is checked. | 
 | **4.7** | Verify that third party contracts do not shadow special functions (e.g. *revert*). | 
+| **4.8** | Verify that there are no vulnerabilities associated with communications. | 
 
 
 ## References
