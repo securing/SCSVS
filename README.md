@@ -6,7 +6,7 @@ Damian Rusinek (damian.rusinek@securing.pl), Paweł Kuryłowicz (pawel.kurylowic
 
 ## Introduction
 
-Smart Contract Security Verification Standard (v1.1) is a FREE 14-part checklist created to standardize the security of smart contracts for developers, architects, security reviewers and vendors. This list helps to avoid the majority of known security problems and vulnerabilities by providing guidance at every stage of the development cycle of the smart contracts (from designing to implementation).
+Smart Contract Security Verification Standard (v1.2) is a FREE 14-part checklist created to standardize the security of smart contracts for developers, architects, security reviewers and vendors. This list helps to avoid the majority of known security problems and vulnerabilities by providing guidance at every stage of the development cycle of the smart contracts (from designing to implementation).
 
 **Objectives**
 * Help to develop high quality code of the smart contracts.
