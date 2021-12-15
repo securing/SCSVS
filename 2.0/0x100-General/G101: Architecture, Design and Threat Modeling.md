@@ -1,4 +1,4 @@
-# G1: Architecture, design and threat modeling
+# G101: Architecture, design and threat modeling
 
 ## Control Objective
 
@@ -9,7 +9,7 @@ Ensure that a verified contract satisfies the following high-level requirements:
 * All related smart contracts are identified and used properly,
 * Specific smart contracts security assumptions are considered during the design phase.
 
-Category “G1” lists requirements related to the architecture, design and threat modeling of the smart contracts.
+Category “G101” lists requirements related to the architecture, design and threat modeling of the smart contracts.
 
 ## Security Verification Requirements
 
