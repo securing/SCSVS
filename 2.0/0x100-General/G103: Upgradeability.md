@@ -15,17 +15,17 @@ Category “G103” lists requirements related to the upgradeabilitiy of the sma
 
 | # | Description |
 | --- | --- |
-| **1.1** | Verify that there are no vulnerabilities associated with upgradeability. |
-| **1.2** | Verify that the team has made an update attempt  at a fork of the main network and checked that everything works as expected on the local copy. |
-| **1.3** | Verify that the upgrade process is executed by a multisig contract where more than one person must approve the operation. |
-| **1.4** | Verify that timelocks are used for important operations so that the users have time to observe upcoming changes (please note that removing the potential vulnerability in this case may be more difficult). |
-| **1.5** | Verify that *initialize()* can only be called once. |
-| **1.6** | Verify that *initialize()* can only be called by an authorized role through appropriate modifiers (e.g. *initializer*, *onlyOwner*). |
-| **1.7** | Verify if the update process is done in one transaction so that no one can front-run it. |
-| **1.8** | Verify that upgradeable contracts have reserved gap on slots to prevent overwriting. |
-| **1.9** | Verify that the number of reserved (as a gap) slots has been reduced appropriately if new variables have been added. |
-| **1.10** | Verify that there are no changes in the order in which the contract state variables are declared, nor their types. |
-| **1.11** | Verify if the new values returned by the functions are the same as in the previous version of the contract (e.g. *owner()*, *balanceOf(address)*). |
+| **103.1** | Verify that there are no vulnerabilities associated with upgradeability. |
+| **103.2** | Verify that the team has made an update attempt  at a fork of the main network and checked that everything works as expected on the local copy. |
+| **103.3** | Verify that the upgrade process is executed by a multisig contract where more than one person must approve the operation. |
+| **103.4** | Verify that timelocks are used for important operations so that the users have time to observe upcoming changes (please note that removing the potential vulnerability in this case may be more difficult). |
+| **103.5** | Verify that *initialize()* can only be called once. |
+| **103.6** | Verify that *initialize()* can only be called by an authorized role through appropriate modifiers (e.g. *initializer*, *onlyOwner*). |
+| **103.7** | Verify if the update process is done in one transaction so that no one can front-run it. |
+| **103.8** | Verify that upgradeable contracts have reserved gap on slots to prevent overwriting. |
+| **103.9** | Verify that the number of reserved (as a gap) slots has been reduced appropriately if new variables have been added. |
+| **103.10** | Verify that there are no changes in the order in which the contract state variables are declared, nor their types. |
+| **103.11** | Verify if the new values returned by the functions are the same as in the previous version of the contract (e.g. *owner()*, *balanceOf(address)*). |
 
 ## References
 
