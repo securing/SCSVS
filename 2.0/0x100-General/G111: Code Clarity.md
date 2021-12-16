@@ -1,4 +1,4 @@
-# VG11: Code clarity
+# G111: Code clarity
 
 ## Control Objective
 
@@ -22,7 +22,7 @@ Category “G111” lists requirements related to the code clarity of the smart 
 | **111.6** | Verify that the contract uses existing and tested code (e.g. token contract or mechanisms like *ownable*) instead of implementing its own. | 
 | **111.7** | Verify that the same rules for variable naming are followed throughout all the contracts (e.g. use the same variable name for the same object). | 
 | **111.8** | Verify that variables with similar names are not used. | 
-| **111.9** | Verify that all storage variables are initialised. | 
+| **111.9** | Verify that all storage variables are initialized. | 
 | **111.10** | Verify that the functions which specify a return type return the value. | 
 | **111.11** | Verify that all functions and variables are used. Unused ones should be removed. | 
 | **111.12** | Verify that the *require* function is used instead of the *revert* function in *if* statement. | 
