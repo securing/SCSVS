@@ -15,19 +15,19 @@ Category “I302” lists requirements related to the Token smart contract as on
 
 | # | Description |
 | --- | --- |
-| **301.1** | Verify that there are no vulnerabilities associated with Token integrations. |
-| **301.2** | Verify if the external Token implementation is compliant with the standard implementation. |
-| **301.3** | Verify if the rules on which a new external Token can be added to the system have been defined (no restrictions, any tokens added by Governance etc.).  |
-| **301.4** | Verify that the allowlist approach is used when only selected tokens are introduced to the system. |
-| **301.5** | Verify if the external Token implementation is non-standard (e.g. it  is deflationary, contains a fee), it has been taken into consideration. |
-| **301.6** | Verify that if the external Token implementation includes external calls, it has been taken into consideration (e.g., protection against reentrancy). |
-| **301.7** | Verify that the external Token magnitude (decimals) are known, and all operations are executed with the correct magnitude. |
-| **301.8** | Verify that the external Token supply is specified and corresponds to the documentation. |
-| **301.9** | Verify that the external Tokens of any user cannot be locked or frozen by any entity (e.g., owner). |
-| **301.10** | Verify that the reentrancy attack has been considered when using the token contracts with callbacks (e.g. ERC-777). |
-| **301.11** | Verify that transfer of external Tokens has been successful, comparing the balances before and after it. |
-| **301.12** | Verify that projects contracts uses *safeTransfer* function which handles correctly both types of tokens, those that return false on error and those that revert. |
-| **301.13** | Verify that the contract reverts on failed transfer. |
+| **302.1** | Verify that there are no vulnerabilities associated with Token integrations. |
+| **302.2** | Verify if the external Token implementation is compliant with the standard implementation. |
+| **302.3** | Verify if the rules on which a new external Token can be added to the system have been defined (no restrictions, any tokens added by Governance etc.).  |
+| **302.4** | Verify that the allowlist approach is used when only selected tokens are introduced to the system. |
+| **302.5** | Verify if the external Token implementation is non-standard (e.g. it  is deflationary, contains a fee), it has been taken into consideration. |
+| **302.6** | Verify that if the external Token implementation includes external calls, it has been taken into consideration (e.g., protection against reentrancy). |
+| **302.7** | Verify that the external Token magnitude (decimals) are known, and all operations are executed with the correct magnitude. |
+| **302.8** | Verify that the external Token supply is specified and corresponds to the documentation. |
+| **302.9** | Verify that the external Tokens of any user cannot be locked or frozen by any entity (e.g., owner). |
+| **302.10** | Verify that the reentrancy attack has been considered when using the token contracts with callbacks (e.g. ERC-777). |
+| **302.11** | Verify that transfer of external Tokens has been successful, comparing the balances before and after it. |
+| **302.12** | Verify that projects contracts uses *safeTransfer* function which handles correctly both types of tokens, those that return false on error and those that revert. |
+| **302.13** | Verify that the contract reverts on failed transfer. |
 
 ## References
 
