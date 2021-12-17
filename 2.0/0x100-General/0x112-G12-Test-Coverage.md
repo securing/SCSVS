@@ -1,4 +1,4 @@
-# G112: Test coverage
+# G12: Test coverage
 
 ## Control Objective
 
@@ -7,18 +7,18 @@ Ensure that a verified contract satisfies the following high-level requirements:
 * The implementation has been tested statically and dynamically,
 * The implementation has been tested using symbolic execution.
 
-Category “G112” lists requirements related to the testing process of the smart contracts.
+Category “G12” lists requirements related to the testing process of the smart contracts.
 
 ## Security Verification Requirements
 
 | # | Description |
 | --- | --- |
-| **112.1** | Verify that there are no recommendations regarding the needed improvement test coverage in the external company audit report.  |
-| **112.2** | Verify that abuser stories specified during threat modeling are covered by unit tests.  |  
-| **112.3** | Verify that considered as sensitive functions of verified contract are covered with tests in the development phase. |
-| **112.4** | Verify that the implementation of verified contract has been checked for security vulnerabilities using static and dynamic analysis. |
-| **112.5** | Verify that the specification of smart contract has been formally verified.  | 
-| **112.6** | Verify that the specification and the result of formal verification is included in the documentation.  | 
+| **G12.1** | Verify that there are no recommendations regarding the needed improvement test coverage in the external company audit report.  |
+| **G12.2** | Verify that abuser stories specified during threat modeling are covered by unit tests.  |  
+| **G12.3** | Verify that considered as sensitive functions of verified contract are covered with tests in the development phase. |
+| **G12.4** | Verify that the implementation of verified contract has been checked for security vulnerabilities using static and dynamic analysis. |
+| **G12.5** | Verify that the specification of smart contract has been formally verified.  | 
+| **G12.6** | Verify that the specification and the result of formal verification is included in the documentation.  | 
 
 ## References
 

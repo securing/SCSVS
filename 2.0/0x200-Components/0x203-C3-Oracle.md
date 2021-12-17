@@ -1,4 +1,4 @@
-# C203: Oracle
+# C3: Oracle
 
 ## Control Objective
 
@@ -9,17 +9,17 @@ Ensure that a verified contract satisfies the following high-level requirements:
 * Manipulating the oracle's results is unprofitable and easy to detect,
 * Vulnerabilities identified in various Oracle implementations have been taken into account during implementation.
 
-Category “C203” lists requirements related to the Oracle smart contract as one of the project components.
+Category “C3” lists requirements related to the Oracle smart contract as one of the project components.
 
 ## Security Verification Requirements
 
 | # | Description |
 | --- | --- |
-| **203.1** | Verify that there are no vulnerabilities associated with Oracle component. |
-| **203.2** | Verify that the manipulation of the returned data by Oracle is unprofitable for the attacker. |
-| **203.3** | Verify that there are alerts set and monitored for large and sudden changes in the price feed. |
-| **203.4** | Verify if there is a way to mark the data as incorrect. |
-| **203.5** | Verify that the supply with incorrect data is penalized. |
+| **C3.1** | Verify that there are no vulnerabilities associated with Oracle component. |
+| **C3.2** | Verify that the manipulation of the returned data by Oracle is unprofitable for the attacker. |
+| **C3.3** | Verify that there are alerts set and monitored for large and sudden changes in the price feed. |
+| **C3.4** | Verify if there is a way to mark the data as incorrect. |
+| **C3.5** | Verify that the supply with incorrect data is penalized. |
 
 ## References
 
