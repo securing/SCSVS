@@ -33,6 +33,8 @@ Category “I302” lists requirements related to the Token smart contract as on
 
 For more information, see also:
 
+* [Token Interaction Checklist Consensys](https://consensys.net/diligence/blog/2020/11/token-interaction-checklist/)
+* [Token Integration Checklist ToB](https://github.com/crytic/building-secure-contracts/blob/master/development-guidelines/token_integration.md)
 * [The Dangers of Token Integration](https://www.youtube.com/watch?v=6GaCt_lM_ak)
 * [Token Implementation Best Practice](https://consensys.github.io/smart-contract-best-practices/tokens/)
 * [iToken Duplication Incident Report](https://bzx.network/blog/incident)
