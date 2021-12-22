@@ -35,36 +35,36 @@ You can use the SCSVS checklist in multiple ways:
 * As a scoping document for penetration test or security audit of a smart contract.
 * As a formal security requirement list for developers or third parties developing the smart contract for you. 
 * As a self-check for developers.
-* To point areas which need further development in regards to security.
+* To point areas which need further development regarding security.
 
-Depending on your role in the protocol we recommend to perform different actions summarized below. Treat it as an inspiration and not strict rules.
+Depending on your role in the protocol, we recommend performing different actions summarized below. Treat it as an inspiration and not strict rules.
 
 ### As Architect 👷‍♂️
 
-If you are desiging a protocol you should schedule (and potentially delegate) the following actions:
+If you are designing a protocol, you should schedule (and potentially delegate) the following actions:
 * Use security requirements from General and Components chapters to identify potential security bugs your team might introduce in the protocol.
 * Use security requirements from Interaction chapter to identify potential threat coming from the 3rd party protocols.
-* Write down all potential theats identified in steps 1 and 2. This will be great input for the threat modeling session.
-* Inform your team about the identified threats (e.g. duiring a threat modeling sesison).
+* Write down all potential threats identified in steps 1 and 2. This will be great input for the threat modeling session.
+* Inform your team about the identified threats (e.g. during a threat modeling session).
 
 ### As Developer 🧑‍💻
 
-If you are developing a protocol you should schedule (and potentially delegate) the following actions:
+If you are developing a protocol, you should schedule (and potentially delegate) the following actions:
 * Get the potential threats identified by the Auditor, Architect or during a threat modeling session and learn how to avoid them.
-* When implementing a smart contract with specific functionalities check the security requirements from the corresponding SCSVS category.
+* When implementing a smart contract with specific functionalities, check the security requirements from the corresponding SCSVS category.
 * After release, make sure SCSVS coverage report is present in the protocol repository.
 
 ### As Business Owner / Founder 🧙
 
-If you are the owner of a protocol or represent the business side of the project you should schedule and delegate the following actions:
+If you are the owner of a protocol or represent the business side of the project, you should schedule and delegate the following actions:
 * Ask other protocols that yours is integrated with for their SCSVS coverage report.
 * Check the **Security Health Factor** of your protocol by doing SCSVS coverage of all 3 chapters.
 
 ### As Auditor 🥷
 
-If you are an internal or external auditor of a protocol you should schedule (and potentially delegate) the following actions:
+If you are an internal or external auditor of a protocol, you should schedule (and potentially delegate) the following actions:
 * Do a threat modeling session (as soon as possible) to identify potential threats and decide how to handle them. Use the output of Architect actions as partial input.
-* Just before the release do the SCSVS coverage of all 3 chapters to get the **Security Health Factor** of your protocol.
+* Just before the release, do the SCSVS coverage of all 3 chapters to get the **Security Health Factor** of your protocol.
 * Add SCSVS coverage report to the protocol repository.
 
 ## Table of contents
@@ -77,13 +77,13 @@ If you are an internal or external auditor of a protocol you should schedule (an
 
 ## Severity of the risk
 
-Threat modeling and risk analysis are important parts of the security assessment. Threat modeling allows to discover the potential threats and their risk impact. The aim of risk analysis is to identify security risks and determine their severity which allows to prioritize them in the mitigation process.
+Threat modeling and risk analysis are important parts of the security assessment. Threat modeling allows discovering potential threats and their risk impact. The aim of risk analysis is to identify security risks and determine their severity, which allows the team to prioritize them in the mitigation process.
 
 The SCSVS does not include the severity of the risks related to the requirements. Even though there are multiple methodologies to assess the severity, each application is unique and so are the threat actors, their goals, and the impact of a breach. 
 
-Moreover, the requirements cannot be uniquely linked to the security risks as many risks can refer to one requirement and many requirements can refer to one risk.
+Moreover, the requirements cannot be uniquely linked to the security risks, as many risks can refer to one requirement and many requirements can refer to one risk.
 
-We recommend to determine the severity of the risks related with the requirements when performing the security assessment using SCSVS standard. 
+We recommend determining the severity of the risks related with the requirements when performing the security assessment using SCSVS standard. 
 
 We recommend [Common Vulnerability Scoring System (CVSS)](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator), a free and open industry standard for assessing the severity of security vulnerabilities.
 

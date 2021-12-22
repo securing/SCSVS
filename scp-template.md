@@ -8,7 +8,7 @@ The content of security check that would be added to SCSVS. The check should be 
 
 Example: _Verify that if the implemented functions include external calls, they are handled correctly and do not introduce unsafe external calls to the system._
 
-There should be only one proposed check unless the aim of proposal is to introduce new category.
+There should be only one proposed check, unless the aim of the proposal is to introduce a new category.
 
 ## Chapter & category
 
@@ -36,7 +36,7 @@ The aim of this section from the reader's perspective is to get to know the furt
 
 ## Pull Request
 
-This section is optional but **very** welcomed and should contain a link to Pull Request that adds the check to SCSVS.
+This section is optional but **very** welcomed and should contain a link to a Pull Request that adds the check to SCSVS.
 
 ## License
 
