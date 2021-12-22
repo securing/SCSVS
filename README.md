@@ -69,11 +69,34 @@ If you are an internal or external auditor of a protocol, you should schedule (a
 
 ## Table of contents
 
-* [G: General](./2.0/0x100-General/README.md)
-    * [G1: Architecture, Design and Threat Modeling](<./2.0/0x100-General/G1: Architecture, Design and Threat Modeling.md>)
-    * [G2: Upgradeability](<./2.0/0x100-General/G2: Upgradeability.md>)
-* [C: Components](./2.0/0x200-Components/README.md)
-* [I: Integrations](./2.0/0x300-Integrations/README.md)
+* G: General
+    * [G1: Architecture, design and threat modeling](<./2.0/0x100-General/0x101-G1-Architecture-Design-Threat-Modeling.md>)
+    * [G2: Policies and procedures
+](<./2.0/0x100-General/0x102-G2-Policies-procedures.md>)
+    * [G3: Upgradeability](<./2.0/0x100-General/0x103-G3-Upgradeability.md>)
+    * [G4: Business logic](<./2.0/0x100-General/0x104-G4-Business-Logic.md>)
+    * [G5: Access control](<./2.0/0x100-General/0x105-G5-Access-Control.md>)
+    * [G6: Communications](<./2.0/0x100-General/0x106-G6-Communications.md>)
+    * [G7: Arithmetic](<./2.0/0x100-General/0x107-G7-Arithmetic.md>)
+    * [G8: Denial of service](<./2.0/0x100-General/0x108-G8-Denial-of-Service.md>)
+    * [G9: Blockchain data](<./2.0/0x100-General/0x109-G9-Blockchain-Data.md>)
+    * [G10: Gas usage & limitations](<./2.0/0x100-General/0x110-G10-Gas.md>)
+    * [G11: Code clarity](<./2.0/0x100-General/0x111-G11-Code-Clarity.md>)
+    * [G12: Test coverage](<./2.0/0x100-General/0x112-G12-Test-Coverage.md>)
+* C: Components
+    * [C1: Token](<./2.0/0x200-Components/0x201-C1-Token.md>)
+    * [C2: Governance](<./2.0/0x200-Components/0x202-C2-Governance.md>)
+    * [C3: Oracle](<./2.0/0x200-Components/0x203-C3-Oracle.md>)
+    * [C4: Vault](<./2.0/0x200-Components/0x204-C4-Vault.md>)
+    * [C5: Liquidity pool](<./2.0/0x200-Components/0x205-C5-Liquidity-pool.md>)
+    * [C6: Bridge](<./2.0/0x200-Components/0x206-C6-Bridge.md>)
+* I: Integrations
+    * [I1: Basic](<./2.0/0x300-Integrations/0x301-I1-Basic.md>)
+    * [I2: Token](<./2.0/0x300-Integrations/0x302-I2-Token.md>)
+    * [I3: Governance](<./2.0/0x300-Integrations/0x303-I3-Governance.md>)
+    * [I4: Oracle](<./2.0/0x300-Integrations/0x304-I4-Oracle.md>)
+    * [I5: Flash loan provider](<./2.0/0x300-Integrations//0x305-I5-Flash-loan-provider.md>)
+    * [I6: Liquidity pool](<./2.0/0x300-Integrations/0x306-I6-Liquidity-pool.md>)
 
 ## Severity of the risk
 

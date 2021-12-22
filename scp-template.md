@@ -18,13 +18,13 @@ Example: _C1: Token_
 
 ### New category
 
-This section can introduce new categories, but the proposal should include the motivation, rationale and more than one check for the proposed category.
+The "Chapter & category" section can introduce new categories, but the proposal should include the motivation, rationale and more than one check for the proposed category.
 
 ## Motivation & rationale
 
 The motivation section should describe the "why" of this security check. What potential security bug does it protect from? What benefit does it provide to the protocol? What functionality and use cases does this check address?
 
-## Real-life example
+## Real-life example (optional)
 
 This section (optional but welcomed) should describe a real case of the security bug that the check refers to. Verifying the proposed check should protect from the security bug in the addressed real-life example.
 
@@ -34,7 +34,7 @@ External references to sites which describe the addressed security bug, proposed
 
 The aim of this section from the reader's perspective is to get to know the further details of the addressed issue.
 
-## Pull Request
+## Pull Request (optional)
 
 This section is optional but **very** welcomed and should contain a link to a Pull Request that adds the check to SCSVS.
 
