@@ -1,61 +1,117 @@
-# Smart Contract Security Verification Standard
+# Smart Contract Security Verification Standard  🚀
 
 ## Authors
 
-Damian Rusinek (damian.rusinek@securing.pl), Paweł Kuryłowicz (pawel.kurylowicz@securing.pl)
+* Damian Rusinek [@drdr_zz](https://twitter.com/drdr_zz) (damian.rusinek@securing.pl)
+* Paweł Kuryłowicz [@wh01s7](https://twitter.com/wh01s7) (pawel.kurylowicz@securing.pl)
 
 ## Introduction
 
-Smart Contract Security Verification Standard (v1.2) is a FREE 14-part checklist created to standardize the security of smart contracts for developers, architects, security reviewers and vendors. This list helps to avoid the majority of known security problems and vulnerabilities by providing guidance at every stage of the development cycle of the smart contracts (from designing to implementation).
+Smart Contract Security Verification Standard (v2) is a FREE checklist created to **standardize the security of smart contracts** for developers, architects, security reviewers and vendors. 
+
+This list helps to avoid the majority of known security problems and vulnerabilities by providing guidance at every stage of the development cycle of the smart contracts (from designing to implementation).
 
 **Objectives**
 * Help to develop high quality code of the smart contracts.
 * Help to mitigate known vulnerabilities by design.
 * Provide a checklist for security reviewers.
-* Provide a clear and reliable assessment of how secure a smart contract is in the relation to the percentage of SCSVS coverage.
+* Provide a clear and reliable assessment - **Security Health Factor** - of how secure smart contracts are in the relation to the percentage of SCSVS coverage.
 
-**Use cases**
+## 🔥 Updates in v2 🔥
+
+Security, Composability and Transparency are fundamentals of the SCSVS. These values are achieved thanks to the engagement and cooperation of the #BlockSec community. The standard structure distinguishes 3 chapters, each operating in a slightly different area.
+
+* **General** - common and general security problems including, among others, design, upgrades, policies.
+
+* **Components** - contracts that make up the project, frequently used patterns with their typical security issues.
+
+* **Integrations** - components with which the project integrates, general recommendations and threats to frequently used smart contracts.
+
+## How to use SCSVSv2
 
 You can use the SCSVS checklist in multiple ways:
-* As a starting point for formal threat modelling exercise.
+* As a starting point for formal threat modeling exercise.
 * As a measure of your smart contract security and maturity.
 * As a scoping document for penetration test or security audit of a smart contract.
 * As a formal security requirement list for developers or third parties developing the smart contract for you. 
 * As a self-check for developers.
-* To point areas which need further development in regards to security.
+* To point areas which need further development regarding security.
 
-The entire checklist is in a form similar to OWASP APPLICATION SECURITY VERIFICATION STANDARD v4.0.
-Every category has a brief description of the control objectives and a list of security verification requirements.
+Depending on your role in the protocol, we recommend performing different actions summarized below. Treat it as an inspiration and not strict rules.
 
-[___Download SCSVS PDF version___](SCSVS_v1.1.pdf)
+### As Architect 👷‍♂️
 
-**Key areas that have been included:**
-* [V1: Architecture, Design and Threat Modelling](./1.2/0x10-V1-Architecture-Design-Threat-modelling.md)
-* [V2: Access Control](./1.2/0x11-V2-Access-Control.md)
-* [V3: Blockchain Data](./1.2/0x12-V3-Blockchain-Data.md)
-* [V4: Communications](./1.2/0x13-V4-Communications.md)
-* [V5: Arithmetic](./1.2/0x14-V5-Arithmetic.md)
-* [V6: Malicious Input Handling](./1.2/0x15-V6-Malicious-Input-Handling.md)
-* [V7: Gas Usage & Limitations](./1.2/0x16-V7-Gas-Usage-And-Limitations.md)
-* [V8: Business Logic](./1.2/0x17-V8-Business-Logic.md)
-* [V9: Denial of Service](./1.2/0x18-V9-Denial-Of-Service.md)
-* [V10: Token](./1.2/0x19-V10-Token.md)
-* [V11: Code Clarity](./1.2/0x20-V11-Code-Clarity.md)
-* [V12: Test Coverage](./1.2/0x21-V12-Test-Coverage.md)
-* [V13: Known Attacks](./1.2/0x22-V13-Known-Attacks.md)
-* [V14: Decentralized Finance](./1.2/0x23-V14-Decentralized-Finance.md)
+If you are designing a protocol, you should schedule (and potentially delegate) the following actions:
+* Use security requirements from General and Components chapters to identify potential security bugs your team might introduce in the protocol.
+* Use security requirements from Interaction chapter to identify potential threat coming from the 3rd party protocols.
+* Write down all potential threats identified in steps 1 and 2. This will be great input for the threat modeling session.
+* Inform your team about the identified threats (e.g. during a threat modeling session).
 
-**Severity of the risk**
+### As Developer 🧑‍💻
 
-Threat modelling and risk analysis are important parts of the security assessment. Threat modelling allows to discover the potential threats and their risk impact. The aim of risk analysis is to identify security risks and determine their severity which allows to prioritize them in the mitigation process.
+If you are developing a protocol, you should schedule (and potentially delegate) the following actions:
+* Get the potential threats identified by the Auditor, Architect or during a threat modeling session and learn how to avoid them.
+* When implementing a smart contract with specific functionalities, check the security requirements from the corresponding SCSVS category.
+* After release, make sure SCSVS coverage report is present in the protocol repository.
+
+### As Business Owner / Founder 🧙
+
+If you are the owner of a protocol or represent the business side of the project, you should schedule and delegate the following actions:
+* Ask other protocols that yours is integrated with for their SCSVS coverage report.
+* Check the **Security Health Factor** of your protocol by doing SCSVS coverage of all 3 chapters.
+
+### As Auditor 🥷
+
+If you are an internal or external auditor of a protocol, you should schedule (and potentially delegate) the following actions:
+* Do a threat modeling session (as soon as possible) to identify potential threats and decide how to handle them. Use the output of Architect actions as partial input.
+* Just before the release, do the SCSVS coverage of all 3 chapters to get the **Security Health Factor** of your protocol.
+* Add SCSVS coverage report to the protocol repository.
+
+## Table of contents
+
+* G: General
+    * [G1: Architecture, design and threat modeling](<./2.0/0x100-General/0x101-G1-Architecture-Design-Threat-Modeling.md>)
+    * [G2: Policies and procedures
+](<./2.0/0x100-General/0x102-G2-Policies-procedures.md>)
+    * [G3: Upgradeability](<./2.0/0x100-General/0x103-G3-Upgradeability.md>)
+    * [G4: Business logic](<./2.0/0x100-General/0x104-G4-Business-Logic.md>)
+    * [G5: Access control](<./2.0/0x100-General/0x105-G5-Access-Control.md>)
+    * [G6: Communications](<./2.0/0x100-General/0x106-G6-Communications.md>)
+    * [G7: Arithmetic](<./2.0/0x100-General/0x107-G7-Arithmetic.md>)
+    * [G8: Denial of service](<./2.0/0x100-General/0x108-G8-Denial-of-Service.md>)
+    * [G9: Blockchain data](<./2.0/0x100-General/0x109-G9-Blockchain-Data.md>)
+    * [G10: Gas usage & limitations](<./2.0/0x100-General/0x110-G10-Gas.md>)
+    * [G11: Code clarity](<./2.0/0x100-General/0x111-G11-Code-Clarity.md>)
+    * [G12: Test coverage](<./2.0/0x100-General/0x112-G12-Test-Coverage.md>)
+* C: Components
+    * [C1: Token](<./2.0/0x200-Components/0x201-C1-Token.md>)
+    * [C2: Governance](<./2.0/0x200-Components/0x202-C2-Governance.md>)
+    * [C3: Oracle](<./2.0/0x200-Components/0x203-C3-Oracle.md>)
+    * [C4: Vault](<./2.0/0x200-Components/0x204-C4-Vault.md>)
+    * [C5: Liquidity pool](<./2.0/0x200-Components/0x205-C5-Liquidity-pool.md>)
+    * [C6: Bridge](<./2.0/0x200-Components/0x206-C6-Bridge.md>)
+* I: Integrations
+    * [I1: Basic](<./2.0/0x300-Integrations/0x301-I1-Basic.md>)
+    * [I2: Token](<./2.0/0x300-Integrations/0x302-I2-Token.md>)
+    * [I3: Governance](<./2.0/0x300-Integrations/0x303-I3-Governance.md>)
+    * [I4: Oracle](<./2.0/0x300-Integrations/0x304-I4-Oracle.md>)
+    * [I5: Flash loan provider](<./2.0/0x300-Integrations//0x305-I5-Flash-loan-provider.md>)
+    * [I6: Liquidity pool](<./2.0/0x300-Integrations/0x306-I6-Liquidity-pool.md>)
+
+## Severity of the risk
+
+Threat modeling and risk analysis are important parts of the security assessment. Threat modeling allows discovering potential threats and their risk impact. The aim of risk analysis is to identify security risks and determine their severity, which allows the team to prioritize them in the mitigation process.
 
 The SCSVS does not include the severity of the risks related to the requirements. Even though there are multiple methodologies to assess the severity, each application is unique and so are the threat actors, their goals, and the impact of a breach. 
 
-Moreover, the requirements cannot be uniquely linked to the security risks as many risks can refer to one requirement and many requirements can refer to one risk.
+Moreover, the requirements cannot be uniquely linked to the security risks, as many risks can refer to one requirement and many requirements can refer to one risk.
 
-We recommend to determine the severity of the risks related with the requirements when performing the security assessment using SCSVS standard. 
+We recommend determining the severity of the risks related with the requirements when performing the security assessment using SCSVS standard. 
 
 We recommend [Common Vulnerability Scoring System (CVSS)](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator), a free and open industry standard for assessing the severity of security vulnerabilities.
 
-**License:**
+## License
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.  To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+The entire checklist is in a form similar to OWASP APPLICATION SECURITY VERIFICATION STANDARD v4.0.
+Every category has a brief description of the control objectives and a list of security verification requirements.
