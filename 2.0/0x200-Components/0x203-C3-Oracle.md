@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-If a project contains an Oracle smart contract, it is necessary to follow the standard and create a secure contract based on it. Learn from past mistakes that have been identified and have solutions ready.
+If a project builds an Oracle smart contract, it is necessary to follow the standard and create a secure contract based on it. Learn from past mistakes that have been identified and have solutions ready.
 
 Ensure that a verified contract satisfies the following high-level requirements:
 * Contract follows a tested and stable Oracle standard,
