@@ -16,7 +16,7 @@ Category “G3” lists requirements related to the upgradeabilitiy of the smart
 | # | Description |
 | --- | --- |
 | **G3.1** | Verify that there are no vulnerabilities associated with upgradeability. |
-| **G3.2** | Verify that the team has made an update attempt  at a fork of the main network and checked that everything works as expected on the local copy. |
+| **G3.2** | Verify that the team has made an update attempt at a fork of the main network and checked that everything works as expected on the local copy. |
 | **G3.3** | Verify that the upgrade process is executed by a multisig contract where more than one person must approve the operation. |
 | **G3.4** | Verify that timelocks are used for important operations so that the users have time to observe upcoming changes (please note that removing the potential vulnerability in this case may be more difficult). |
 | **G3.5** | Verify that *initialize()* can only be called once. |
@@ -26,6 +26,8 @@ Category “G3” lists requirements related to the upgradeabilitiy of the smart
 | **G3.9** | Verify that the number of reserved (as a gap) slots has been reduced appropriately if new variables have been added. |
 | **G3.10** | Verify that there are no changes in the order in which the contract state variables are declared, nor their types. |
 | **G3.11** | Verify if the new values returned by the functions are the same as in the previous version of the contract (e.g. *owner()*, *balanceOf(address)*). |
+| **G3.12** | Verify that the implementation is initialized. |
+| **G3.13** | Verify that the implementation can't be destroyed. |
 
 ## References
 
