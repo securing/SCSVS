@@ -9,7 +9,7 @@ Ensure that a verified contract satisfies the following high-level requirements:
 * The properties of the Token that we enter into our system are known and properly handled.
 * Vulnerabilities identified in various Token implementations have been taken into account during implementation.
 
-Category “I2” lists requirements related to the Token smart contract as one of the project components.
+Category “I2” lists requirements related to the Token smart contract as one of the components with which the project integrates.
 
 ## Security Verification Requirements
 
