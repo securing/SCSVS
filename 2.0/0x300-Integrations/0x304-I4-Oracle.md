@@ -20,3 +20,4 @@ For more information, see also:
 
 * [The Dangers of Price Oracles in Smart Contracts](https://www.youtube.com/watch?v=YGO7nzpXCeA)
 * [So you want to use a price oracle](https://samczsun.com/so-you-want-to-use-a-price-oracle/)
+* [Pricing LP tokens | Warp Finance hack](https://cmichel.io/pricing-lp-tokens/)
