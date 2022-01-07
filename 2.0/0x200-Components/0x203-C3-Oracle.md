@@ -25,4 +25,6 @@ Category “C3” lists requirements related to the Oracle smart contract as one
 
 For more information, see also:
 
+* [ORACLES](https://ethereum.org/en/developers/docs/oracles/)
 * [The Dangers of Price Oracles in Smart Contracts](https://www.youtube.com/watch?v=YGO7nzpXCeA)
+* [So you want to use a price oracle](https://samczsun.com/so-you-want-to-use-a-price-oracle/)
