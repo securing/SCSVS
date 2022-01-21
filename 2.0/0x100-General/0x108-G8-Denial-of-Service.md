@@ -21,7 +21,8 @@ Category “G8” lists requirements related to the possible denial of service o
 | **G8.8** | Verify that there are no costly operations in a loop. | 
 | **G8.9** | Verify that there are no calls to untrusted contracts in a loop. | 
 | **G8.10** | Verify that if there is a possibility of suspending the operation of the contract, it is also possible to resume it. | 
-| **G8.11** | Verify that if allow lists and list deny are used, it does not interfere with normal operation of the system | 
+| **G8.11** | Verify that if allow lists and list deny are used, it does not interfere with normal operation of the system. | 
+| **G8.12** | Verify that there is no DoS caused by overflows and underflows. | 
 
 ## References
 

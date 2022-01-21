@@ -19,7 +19,7 @@ Category “G6” lists requirements related to the function calls between the v
 | **G6.3** | Verify that delegatecall is not used with untrusted contracts. | 
 | **G6.4** | Verify that third party contracts do not shadow special functions (e.g. revert). | 
 | **G6.5** | Verify that the contract does not, check whether the address is a contract using *extcodesize* opcode. | 
-| **G6.6** | Verify that re-entrancy attack is mitigated by blocking recursive calls from other contracts and following Check-Effects-Interactions pattern. Do not use *call* and *send* functions unless it is a must. | 
+| **G6.6** | Verify that re-entrancy attack is mitigated by blocking recursive calls from other contracts and following Check-Effects-Interactions pattern. Do not use *send* function unless it is a must. | 
 | **G6.7** | Verify that the result of low-level function calls (e.g. *send*, *delegatecall*, *call*) from another contracts is checked. | 
 | **G6.8** | Verify that contract relies on the data provided by right sender and contract does not rely on tx.origin value. | 
 

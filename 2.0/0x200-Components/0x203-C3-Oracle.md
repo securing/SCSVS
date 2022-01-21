@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-If a project contains an Oracle smart contract, it is necessary to follow the standard and create a secure contract based on it. Learn from past mistakes that have been identified and have solutions ready.
+If a project builds an Oracle smart contract, it is necessary to follow the standard and create a secure contract based on it. Learn from past mistakes that have been identified and have solutions ready.
 
 Ensure that a verified contract satisfies the following high-level requirements:
 * Contract follows a tested and stable Oracle standard,
@@ -25,4 +25,6 @@ Category “C3” lists requirements related to the Oracle smart contract as one
 
 For more information, see also:
 
+* [ORACLES](https://ethereum.org/en/developers/docs/oracles/)
 * [The Dangers of Price Oracles in Smart Contracts](https://www.youtube.com/watch?v=YGO7nzpXCeA)
+* [So you want to use a price oracle](https://samczsun.com/so-you-want-to-use-a-price-oracle/)
