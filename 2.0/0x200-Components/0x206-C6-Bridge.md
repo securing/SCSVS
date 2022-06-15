@@ -21,7 +21,7 @@ Category “C6” lists requirements related to the Bridge smart contract as one
 | **C6.4** | Verify that bridge includes source and destination chains identifiers in the signed message and correctly verifies them. |
 | **C6.5** | Verify that bridge does not allow to spoof chain identifier. |
 | **C6.6** | Verify that bridge uses a nonce parameter to allow the same operation (the same sender, receiver and amount) to be executed multiple times. |
-| **C6.7** | Verify signed message cannot be used in a differenct context (use domain separator from EIP-712). |
+| **C6.7** | Verify signed message cannot be used in a different context (use domain separator from EIP-712). |
 
 ## References
 For more information, see also:
