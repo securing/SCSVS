@@ -2,7 +2,7 @@
 
 ## Authors
 
-Damian Rusinek (damian.rusinek@securing.pl), Paweł Kuryłowicz (pawel.kurylowicz@securing.pl)
+Damian Rusinek (damian.rusinek@composable-security.com), Paweł Kuryłowicz (pawel.kurylowicz@composable-security.com)
 
 ## Introduction
 
