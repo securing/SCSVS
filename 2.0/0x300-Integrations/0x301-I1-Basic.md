@@ -32,4 +32,4 @@ Category “I1” lists requirements related to each integration with any smart 
 
 For more information, see also:
 
-* [TODO](https://securing.biz/)
+* TODO
