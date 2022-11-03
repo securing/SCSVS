@@ -27,8 +27,6 @@ You can use the SCSVS checklist in multiple ways:
 The entire checklist is in a form similar to OWASP APPLICATION SECURITY VERIFICATION STANDARD v4.0.
 Every category has a brief description of the control objectives and a list of security verification requirements.
 
-[___Download SCSVS PDF version___](SCSVS_v1.1.pdf)
-
 **Key areas that have been included:**
 * [V1: Architecture, Design and Threat Modelling](./1.2/0x10-V1-Architecture-Design-Threat-modelling.md)
 * [V2: Access Control](./1.2/0x11-V2-Access-Control.md)
