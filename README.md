@@ -2,8 +2,8 @@
 
 ## Authors
 
-* Damian Rusinek [@drdr_zz](https://twitter.com/drdr_zz) (damian.rusinek@securing.pl)
-* Paweł Kuryłowicz [@wh01s7](https://twitter.com/wh01s7) (pawel.kurylowicz@securing.pl)
+* Damian Rusinek [@drdr_zz](https://twitter.com/drdr_zz) (damian.rusinek@composable-security.com)
+* Paweł Kuryłowicz [@wh01s7](https://twitter.com/wh01s7) (pawel.kurylowicz@composable-security.com)
 
 ## Introduction
 
