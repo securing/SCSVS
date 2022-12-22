@@ -33,5 +33,5 @@ Category “G11” lists requirements related to the code clarity of the smart c
 
 For more information, see also:
 
-* [Solidity Style Guide v0.8.10](https://docs.soliditylang.org/en/v0.8.10/style-guide.html)
+* [Solidity Style Guide v0.8.17](https://docs.soliditylang.org/en/v0.8.17/style-guide.html)
 * [Solidity: Security Considerations & Recommendations](https://solidity.readthedocs.io/en/v0.5.10/security-considerations.html#recommendations)
