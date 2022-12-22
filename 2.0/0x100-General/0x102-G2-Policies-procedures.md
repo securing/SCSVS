@@ -32,4 +32,6 @@ Category “G2” lists requirements related to the policies, and procedures in 
 
 For more information, see also:
 
-* [TODO](https://www.youtube.com/watch?v=IwR4PAmRhhg&list=PL-lO2xrptAtav4SZgCdDkVxChWhVU3kmP&index=18)
+* [Emergency Procedures - Yearn Finance](https://docs.yearn.finance/vaults/0.4.2/process-and-procedures/emergency)
+* [Emergency tools - Yearn Finance](https://docs.yearn.finance/vaults/0.4.2/process-and-procedures/emergency#tools)
+* [Emergency checklist - Yearn Finance](https://docs.yearn.finance/vaults/0.4.2/process-and-procedures/emergency#emergency-checklist)
