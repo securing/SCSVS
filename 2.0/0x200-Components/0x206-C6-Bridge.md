@@ -34,3 +34,4 @@ For more information, see also:
 * [WORMHOLE - REKT](https://rekt.news/wormhole-rekt/)
 * [RONIN NETWORK - REKT](https://rekt.news/ronin-rekt/)
 * [EIP-712: Ethereum typed structured data hashing and signing](https://eips.ethereum.org/EIPS/eip-712)
+* [Learn EVM attacks - Bridges](https://github.com/coinspect/learn-evm-attacks#bridges)
