@@ -15,7 +15,7 @@ Category “G12” lists requirements related to the testing process of the smar
 | --- | --- |
 | **G12.1** | Verify that there are no recommendations regarding the needed improvement test coverage in the external company audit report.  |
 | **G12.2** | Verify that abuser stories specified during threat modeling are covered by unit tests.  |  
-| **G12.3** | Verify that considered sensitive functions of the verified contract are covered with tests in the development phase. |
+| **G12.3** | Verify that sensitive functions of the verified contract are covered with tests in the development phase. |
 | **G12.4** | Verify that the implementation of the verified contract has been checked for security vulnerabilities using static and dynamic analysis. |
 | **G12.5** | Verify that the specification of the smart contract has been formally verified.  | 
 | **G12.6** | Verify that the specification and the result of formal verification are included in the documentation.  | 
@@ -26,6 +26,7 @@ Category “G12” lists requirements related to the testing process of the smar
 For more information, see also:
 
 * [Formal Verification](https://docs.soliditylang.org/en/latest/smtchecker.html#smtchecker-and-formal-verification)
+* [Foundry](https://github.com/foundry-rs/foundry)
 * [Slither](https://github.com/crytic/slither)
 * [Code coverage for Solidity testing](https://github.com/sc-forks/solidity-coverage)
 * [MythX Plugin for Truffle](https://github.com/ConsenSys/truffle-security)
