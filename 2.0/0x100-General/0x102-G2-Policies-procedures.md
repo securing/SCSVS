@@ -8,7 +8,7 @@ Think about possible situations and be prepared in case they arise. Act consciou
 Ensure that your project satisfies the following high-level requirements:
 * Security procedures and policies are thought out and ready to use,
 * Procedures and policies cover known and common threats from the past of other DeFi projects,
-* Employees are familiar with the policies and procedures and they know what they are responsible for.
+* Employees are familiar with the policies and procedures, and they know what they are responsible for.
 
 Category “G2” lists requirements related to the policies, and procedures in the context of security of DeFi projects.
 
@@ -24,9 +24,10 @@ Category “G2” lists requirements related to the policies, and procedures in 
 | **G2.6** | Verify that the process of major system changes involves threat modeling by an external company. |
 | **G2.7** | Verify that the process of adding and updating components to the system includes a security audit by an external company. |
 | **G2.8** | Verify that there is a clear and known procedure in place in the event of a hack. |
-| **G2.9** | Verify that the procedure in the event of hack have defined exact persons to execute required actions. |
+| **G2.9** | Verify that the procedure in the event of hack have defined individuals to execute required actions. |
 | **G2.10** | Verify that the procedure includes alarming other projects about the hack through trusted channels. |
 | **G2.11** | Verify that a procedure is defined in case one of the project's private keys is leaked. |
+| **G2.12** | Verify that the project has an emergency contact with the external company that conducted the last audit. |
 
 ## References
 
