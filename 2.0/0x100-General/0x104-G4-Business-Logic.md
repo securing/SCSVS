@@ -29,6 +29,7 @@ Category “G4” lists requirements related to the business logic of the smart 
 | **G4.11** | Verify that calling a function once with value XY gives a similar result as calling it X times with value Y. |
 | **G4.12** | Verify that the global state is also updated when working on a copy of some data for optimization reasons. |
 | **G4.13** | Verify that when accepting ETH deposits directly and indirectly via WETH, you are validating the case of msg.value > 0 and the amount of WETH transferred in the same function call. |
+| **G4.14** | Verify that there are no off-by one errors, especially with *>=*, *<=* and *length - 1*. |
 
 ## References
 
