@@ -16,7 +16,7 @@ Category “C4” lists requirements related to the Vault smart contract as one 
 | # | Description |
 | --- | --- |
 | **C4.1** | Verify that there are no vulnerabilities associated with the Vault component. |
-| **C4.2** | Verify that the user's balance is updated based on funds received and not funds sent. |
+| **C4.2** | Verify that the user's balance is updated based on funds received and not the funds declared to be sent. |
 | **C4.3** | Verify that only the user has access to their funds unless they explicitly allow their funds to be managed. |
 | **C4.4** | Verify that the user can safely withdraw their funds at any time, even during an emergency pause. |
 | **C4.5** | Verify that if there is a Vault in the system, then users' funds are stored on it. |
