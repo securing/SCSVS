@@ -19,7 +19,8 @@ Category “G7” lists requirements related to the arithmetic operations of the
 | **G7.6** | Verify that there is a correct order of magnitude in the calculations. | 
 | **G7.7** | Verify that in calculations, multiplication is performed before division for accuracy. | 
 | **G7.8** | Verify that contract does not assume fixed-point precision and use a multiplier or store both the numerator and denominator. | 
-| **G7.9** | Verify that rounding with extreme conditions does not result in larger than expected losses. |
+| **G7.9** | Verify that rounding uses secure granularity (e.g. seconds instead of days). |
+| **G7.10** | Verify that rounding in extreme conditions (e.g. very often) does not cause amplified losses (e.g. lack of interests accrued). |
 
 ## References
 
@@ -28,3 +29,4 @@ For more information, see also:
 * [DASP 10: Arithmetic Issues](https://www.dasp.co/#item-3)
 * [OpenZeppelin: SafeMath](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol)
 * [SWC-101 Integer Overflow and Underflow](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101)
+* [Significant Rounding Errors For Interest Calculation](https://github.com/OpenCoreCH/smart-contract-audits/blob/main/reports/c4/rigor.md#high-significant-rounding-errors-for-interest-calculation)
