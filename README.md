@@ -22,9 +22,7 @@ This list helps to avoid the majority of known security problems and vulnerabili
 Security, Composability, and Transparency are fundamentals of the SCSVS. These values are achieved thanks to the engagement and cooperation of the #BlockSec community. The standard structure distinguishes 3 chapters, each operating in a slightly different area.
 
 * **General** - common and general security problems including, among others: design, upgrades, and policies.
-
 * **Components** - contracts that make up the project, frequently used patterns with their typical security issues.
-
 * **Integrations** - components with which the project integrates, general recommendations and threats to frequently used smart contracts.
 
 ## How to use SCSVSv2
