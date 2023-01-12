@@ -17,16 +17,16 @@ Category “I2” lists requirements related to the Token smart contract as one 
 | --- | --- |
 | **I2.1** | Verify that there are no vulnerabilities associated with Token integrations. |
 | **I2.2** | Verify if the external Token implementation is compliant with the standard implementation. |
-| **I2.3** | Verify if the rules on which a new external Token can be added to the system have been defined (no restrictions, any tokens added by Governance etc.).  |
+| **I2.3** | Verify if the rules on which a new external Token can be added to the system have been defined (no restrictions, any tokens added by Governance, etc.).  |
 | **I2.4** | Verify that the allowlist approach is used when only selected tokens are introduced to the system. |
-| **I2.5** | Verify if the external Token implementation is non-standard (e.g. it  is deflationary, contains a fee), it has been taken into consideration. |
+| **I2.5** | Verify if the external Token implementation is non-standard (e.g. it is deflationary, or contains a fee), it has been taken into consideration. |
 | **I2.6** | Verify that if the external Token implementation includes external calls, it has been taken into consideration (e.g., protection against reentrancy). |
-| **I2.7** | Verify that the external Token magnitude (decimals) are known, and all operations are executed with the correct magnitude. |
+| **I2.7** | Verify that the external Token magnitude (decimals) are known and that all operations are executed with the correct magnitude. |
 | **I2.8** | Verify that the external Token supply is specified and corresponds to the documentation. |
 | **I2.9** | Verify that the external Tokens of any user cannot be locked or frozen by any entity (e.g., owner). |
 | **I2.10** | Verify that the reentrancy attack has been considered when using the token contracts with callbacks (e.g. ERC-777, ERC-721, ERC-1155). |
 | **I2.11** | Verify that transfer of external Tokens has been successful, comparing the balances before and after it. |
-| **I2.12** | Verify that projects contracts handles correctly both types of tokens, those that return false on error and those that revert. |
+| **I2.12** | Verify that project contracts handles correctly both types of tokens, those that return false on an error and those that revert. |
 | **I2.13** | Verify that the contract reverts on failed transfer. |
 
 ## References

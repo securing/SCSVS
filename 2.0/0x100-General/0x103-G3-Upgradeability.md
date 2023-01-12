@@ -33,5 +33,7 @@ Category “G3” lists requirements related to the upgradeabilitiy of the smart
 
 For more information, see also:
 
+* [OpenZeppelin upgrades plugins](https://docs.openzeppelin.com/upgrades-plugins)
+* [Chainlink upgradable smart contracts](https://blog.chain.link/upgradable-smart-contracts/)
 * [Contract upgrade anti-patterns](https://blog.trailofbits.com/2018/09/05/contract-upgrade-anti-patterns)
 * [Security in Upgrades of Smart Contracts](https://www.youtube.com/watch?v=5WE6PEc305w)
