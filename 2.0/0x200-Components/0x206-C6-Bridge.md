@@ -22,6 +22,9 @@ Category “C6” lists requirements related to the Bridge smart contract as one
 | **C6.5** | Verify that bridge does not allow to spoof chain identifier. |
 | **C6.6** | Verify that bridge uses a nonce parameter to allow the same operation (the same sender, receiver and amount) to be executed multiple times. |
 | **C6.7** | Verify signed message cannot be used in a differenct context (use domain separator from EIP-712). |
+| **C6.8** | Verify that priviledged contracts are separated from cross-chain relay calls. |
+| **C6.9** | Verify each supported blockchain's finality is taken into account when settling relay calls. |
+| **C6.10** | Verify that bridge disregards calls originating from different function than designed. |
 
 ## References
 For more information, see also:
