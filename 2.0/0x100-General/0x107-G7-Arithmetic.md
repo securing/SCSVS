@@ -12,13 +12,14 @@ Category “G7” lists requirements related to the arithmetic operations of the
 | # | Description |
 | --- | --- |
 | **G7.1** | Verify that there are no vulnerabilities associated with arithmetic. | 
-| **G7.2** | Verify that the values and math operations are resistant to integer overflows. Use SafeMath library for arithmetic operations before solidity 0.8.*. | 
+| **G7.2** | Verify that the values and math operations are resistant to integer overflows. Use SafeMath library for arithmetic operations before Solidity 0.8.*. | 
 | **G7.3** | Verify that the unchecked code snippets from Solidity 0.8.* do not introduce integer under/overflows. | 
 | **G7.4** | Verify that the extreme values (e.g. maximum and minimum values of the variable type) are considered and does change the logic flow of the contract. | 
 | **G7.5** | Verify that non-strict inequality is used for balance equality. | 
 | **G7.6** | Verify that there is a correct order of magnitude in the calculations. | 
 | **G7.7** | Verify that in calculations, multiplication is performed before division for accuracy. | 
 | **G7.8** | Verify that contract does not assume fixed-point precision and use a multiplier or store both the numerator and denominator. | 
+| **G7.9** | When multiplying two big amounts with precisions (1e18 for most of ERC20 tokens), use RayWad library. |
 
 ## References
 

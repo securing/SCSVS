@@ -25,6 +25,8 @@ Category “C6” lists requirements related to the Bridge smart contract as one
 | **C6.8** | Verify that priviledged contracts are separated from cross-chain relay calls. |
 | **C6.9** | Verify each supported blockchain's finality is taken into account when settling relay calls. |
 | **C6.10** | Verify that bridge disregards calls originating from different function than designed. |
+| **C6.11** | Verify that bridge requires adequate amount of fees to process the message. |
+| **C6.12** | Limit maximum gas consumption for relayed messages. |
 
 ## References
 For more information, see also:
@@ -37,3 +39,4 @@ For more information, see also:
 * [WORMHOLE - REKT](https://rekt.news/wormhole-rekt/)
 * [RONIN NETWORK - REKT](https://rekt.news/ronin-rekt/)
 * [EIP-712: Ethereum typed structured data hashing and signing](https://eips.ethereum.org/EIPS/eip-712)
+* [Awesome Interoperability - bridges](https://docs.nomad.xyz/resources/awesome-interoperability)

@@ -28,6 +28,7 @@ Category “I2” lists requirements related to the Token smart contract as one 
 | **I2.11** | Verify that transfer of external Tokens has been successful, comparing the balances before and after it. |
 | **I2.12** | Verify that projects contracts handles correctly both types of tokens, those that return false on error and those that revert. |
 | **I2.13** | Verify that the contract reverts on failed transfer. |
+| **I2.14** | Use OpenZeppelin's SafeERC20 for interacting with ERC20 tokens. |
 
 ## References
 

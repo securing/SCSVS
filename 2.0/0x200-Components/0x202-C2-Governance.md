@@ -23,6 +23,7 @@ Category “C2” lists requirements related to the Governance smart contract as
 | **C2.6** | Verify that special actions that can be performed only by Governance are clearly marked in the documentation. |
 | **C2.7** | Verify that the Governance cannot do more than declared in the documentation. |
 | **C2.8** | Verify that the ownership transfer is a 2-step process where the candidate accepts it in a separate transaction and the previous owner does not lose privileges until it is done. |
+| **C2.9** | Consider adding vetoing, to overthrow malicious in an emergency situation. |
 
 ## References
 

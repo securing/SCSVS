@@ -24,6 +24,7 @@ Category “G5” lists requirements related to the access control mechanisms of
 | **G5.8** | Verify that all user and data attributes used by access controls are kept in trusted contract and cannot be manipulated by other contracts unless specifically authorized. | 
 | **G5.9** | Verify that the access controls fail securely, including when a revert occurs. | 
 | **G5.10** | Verify that if the input (function parameters) is validated, the positive validation approach (allowlisting) is used where possible. | 
+| **G5.11** | Verify that passing priviledged access to another address is two-step operation. |
 
 ## References
 
