@@ -1,4 +1,4 @@
-# C6: Bridge
+# C5: Bridge
 
 ## Control Objective
 
@@ -9,24 +9,25 @@ Ensure that a verified contract satisfies the following high-level requirements:
 * It is impossible to abuse the signature verification logic,
 * Potential threats related to bridges are taken into consideration.
 
-Category “C6” lists requirements related to the Bridge smart contract as one of the project components.
+Category “C5” lists requirements related to the Bridge smart contract as one of the project components.
 
 ## Security Verification Requirements
 
 | # | Description |
 | --- | --- |
-| **C6.1** | Verify that bridge requires all necessary values to be included in the message and signed: chain ids, receiver, amount, nonce. |
-| **C6.2** | Verify that used signatures are invalidated to protect bridge from replay attacks. |
-| **C6.3** | Verify that message hash generation algorithm is resistant to collision attacks. |
-| **C6.4** | Verify that bridge includes source and destination chains identifiers in the signed message and correctly verifies them. |
-| **C6.5** | Verify that bridge does not allow to spoof chain identifier. |
-| **C6.6** | Verify that bridge uses a nonce parameter to allow the same operation (the same sender, receiver and amount) to be executed multiple times. |
-| **C6.7** | Verify signed message cannot be used in a differenct context (use domain separator from EIP-712). |
-| **C6.8** | Verify that priviledged contracts are separated from cross-chain relay calls. |
-| **C6.9** | Verify each supported blockchain's finality is taken into account when settling relay calls. |
-| **C6.10** | Verify that bridge disregards calls originating from different function than designed. |
-| **C6.11** | Verify that bridge requires adequate amount of fees to process the message. |
-| **C6.12** | Limit maximum gas consumption for relayed messages. |
+| **C5.1** | Verify that bridge requires all necessary values to be included in the message and signed: chain ids, receiver, amount, nonce. |
+| **C5.2** | Verify that used signatures are invalidated to protect the bridge from replay attacks. |
+| **C5.3** | Verify that the message hash generation algorithm is resistant to collision attacks. |
+| **C5.4** | Verify that bridge includes source and destination chain identifiers in the signed message and correctly verifies them. |
+| **C5.5** | Verify that bridge does not allow spoofing chain identifiers. |
+| **C5.6** | Verify that bridge uses a nonce parameter to allow the same operation (the same sender, receiver, and amount) to be executed multiple times. |
+| **C5.7** | Verify that signed message cannot be used in a different context (use domain separator from EIP-712). |
+| **C5.8** | Verify that the case of 0 being returned by ecrecover function is handled securely. |
+| **C5.9** | Verify that priviledged contracts are separated from cross-chain relay calls. |
+| **C5.11** | Verify each supported blockchain's finality is taken into account when settling relay calls. |
+| **C5.12** | Verify that bridge disregards calls originating from different function than designed. |
+| **C5.13** | Verify that bridge requires adequate amount of fees to process the message. |
+| **C5.14** | Limit maximum gas consumption for relayed messages. |
 
 ## References
 For more information, see also:

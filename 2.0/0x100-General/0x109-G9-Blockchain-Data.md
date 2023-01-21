@@ -2,10 +2,10 @@
 
 ## Control Objective
 
-Smart contracts in public blockchains have no built-in mechanism to store secret data securely. It is important to protect sensitive data from reading by an untrusted actor.
+Smart contracts in public blockchains have no built-in mechanism to store secret data securely. It is important to protect sensitive data from being read by an untrusted actor.
 
 Ensure that a verified contract satisfies the following high-level requirements:
-* Data stored in smart contract is identified and protected,
+* Data stored in a smart contract is identified and protected,
 * Secret data is not kept in blockchain as plaintext,
 * Smart contract is not vulnerable due to data misrepresentation.
 
@@ -28,5 +28,7 @@ Category “G9” lists requirements related to the blockchain data of the smart
 
 For more information, see also:
 
+* [eth2book Randomness](https://eth2book.info/altair/part2/building_blocks/randomness)
+* [Chainlink VRF](https://docs.chain.link/vrf/v2/introduction/)
 * [Unencrypted Private Data On-Chain](https://swcregistry.io/docs/SWC-136)
 * [Homoglyph attack](https://github.com/Arachnid/uscc/tree/master/submissions-2017/marcogiglio)
