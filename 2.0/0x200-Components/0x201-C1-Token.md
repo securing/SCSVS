@@ -23,7 +23,7 @@ Category “C1” lists requirements related to the Token smart contract as one 
 | **C1.7** | Verify that the transfer business logic is consistent, especially when re-sending tokens to the same address (*from == to*). |
 | **C1.8** | Verify that if the implemented functions include external calls, they are handled correctly and do not introduce unsafe external calls to the system. |
 | **C1.9** | Verify that the *approve()* function from the ERC-20 standard change the allowed amount only to *0* or from *0*. |
-| **C1.10** | Make sure that the token does not have double entry point and does not track user balances in more than one smart contract. |
+| **C1.10** | Verify that the protocol handles double-entry tokens (tracking user balances in a contract represented by two addresses) correctly or forbids them. |
 
 ## References
 

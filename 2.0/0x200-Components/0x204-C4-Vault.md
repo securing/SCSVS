@@ -24,9 +24,9 @@ Category “C4” lists requirements related to the Vault smart contract as one 
 | **C4.7** | Verify that the same amount of shares for different users allows the same amount of funds to be withdrawn. |
 | **C4.8** | Verify that a user depositing the same amount earlier will get more rewards than the one who deposits the same amount later. |
 | **C4.9** | Verify that depositing rounds down the assets and withdrawing rounds up. |
-| **C4.10** | If the vault is supposed to support fee-on-transfer tokens, make sure to check for balance change rather than amount to be transferred. |
-| **C4.11** | Verify that the vault is only allowed to transfer tokens from msg.sender, to prohibit stealing from other users who set the allowance for the contract |
-| **C4.11** | Verify that the deposit and withdraw business logic is consistent and simmetrical, especially when re-sending tokens to the same address (from == to). |
+| **C4.10** | Verify that the transferred amount is confirmed by checking balances before and after the deposit if the vault is going to support fee-on-transfer tokens (or any token is allowed). |
+| **C4.11** | Verify that the vault is allowed to transfer tokens only from msg.sender to prohibit stealing from users who approved the vault contract. |
+| **C4.12** | Verify that the deposit and withdraw business logic is consistent and symmetrical, especially when re-sending tokens to the same address (from == to). |
 
 ## References
 
