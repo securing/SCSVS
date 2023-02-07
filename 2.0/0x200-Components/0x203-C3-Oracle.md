@@ -20,7 +20,7 @@ Category “C3” lists requirements related to the Oracle smart contract as one
 | **C3.3** | Verify that there are alerts set and monitored for large and sudden changes in the price feed. |
 | **C3.4** | Verify if there is a way to mark the data as incorrect. |
 | **C3.5** | Verify that the supply with incorrect data is penalized. |
-| **C3.6** | Verify that the price for an asset returned by oracle cannot be influenced in a single block. |
+| **C3.6** | Verify that the value (e.g., price for an asset) returned by oracle cannot be influenced in a single block. |
 
 ## References
 
