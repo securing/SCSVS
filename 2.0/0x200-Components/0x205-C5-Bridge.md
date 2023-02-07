@@ -27,7 +27,7 @@ Category “C5” lists requirements related to the Bridge smart contract as one
 | **C5.11** | Verify each supported blockchain's finality is taken into account when settling relay calls. |
 | **C5.12** | Verify that bridge disregards calls originating from different function than designed. |
 | **C5.13** | Verify that bridge requires adequate amount of fees to process the message. |
-| **C5.14** | Limit maximum gas consumption for relayed messages. |
+| **C5.14** | Verify that the maximum gas consumption for relayed messages is limited or fully backed by sender (e.g., in terms of fee). |
 
 ## References
 For more information, see also:
