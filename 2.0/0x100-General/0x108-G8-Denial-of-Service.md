@@ -14,14 +14,14 @@ Category “G8” lists requirements related to the possible denial of service o
 | **G8.1** | Verify that there are no vulnerabilities associated with Denial of Service. | 
 | **G8.2** | Verify that the contract does not iterate over unbound loops.  | 
 | **G8.3** | Verify that self-destruct functionality is used only if necessary.  If it is included in the contract, it should be clearly described in the documentation. | 
-| **G8.4** | Verify that the business logic does not block its flows when any of the participants is absent forever. | 
-| **G8.5** | Verify that the contract logic does not disincentivize users to use contracts (e.g. the cost of transaction is higher than the profit). | 
-| **G8.6** | Verify that expressions of functions assert or require have a passing variant. | 
-| **G8.7** | Verify that if fallback function is not callable by anyone, it is not blocking the functionalities of contract |
+| **G8.4** | Verify that the business logic does not block its flows when any of the participants are absent forever. | 
+| **G8.5** | Verify that the contract logic does not disincentivize users to use contracts (e.g. the cost of the transaction is higher than the profit). | 
+| **G8.6** | Verify that expressions of functions *assert* or *require* have a passing variant. | 
+| **G8.7** | Verify that if *fallback* function is not callable by anyone, it is not blocking the functionalities of the contract |
 | **G8.8** | Verify that there are no costly operations in a loop. | 
 | **G8.9** | Verify that there are no calls to untrusted contracts in a loop. | 
 | **G8.10** | Verify that if there is a possibility of suspending the operation of the contract, it is also possible to resume it. | 
-| **G8.11** | Verify that if allow lists and list deny are used, it does not interfere with normal operation of the system. | 
+| **G8.11** | Verify that if allow lists and deny lists are used, it does not interfere with the normal operation of the system. | 
 | **G8.12** | Verify that there is no DoS caused by overflows and underflows. | 
 
 ## References
